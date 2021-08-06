@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <LangVersion>8.0</LangVersion>
+    <LangVersion>latest</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -53,71 +53,260 @@
     <UnityVersion>2021.1.15f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Assets/Unity Imported Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ShaderPropAnimator.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/TeleportOrientationHandlerHMD.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/TeleportAimHandlerParabolic.cs" />
+    <Compile Include="Assets/Scripts/Scripts provided/Scoreboard.cs" />
+    <Compile Include="Assets/Oculus/Spatializer/scripts/OculusSpatializerUnity.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Scripts/HandsActiveChecker.cs" />
+    <Compile Include="Assets/Oculus/Avatar/Scripts/OvrAvatarSkinnedMeshRenderPBSV2Component.cs" />
     <Compile Include="Assets/Unity Imported Assets/TextMesh Pro/Examples &amp; Extras/Scripts/SkewTextExample.cs" />
-    <Compile Include="Assets/Unity Imported Assets/TextMesh Pro/Examples &amp; Extras/Scripts/WarpTextExample.cs" />
+    <Compile Include="Assets/Oculus/AudioManager/Scripts/Audio/AudioManager_Sound.cs" />
     <Compile Include="Assets/Unity Imported Assets/TextMesh Pro/Examples &amp; Extras/Scripts/SimpleScript.cs" />
-    <Compile Include="Assets/Unity Imported Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_DigitValidator.cs" />
-    <Compile Include="Assets/Unity Imported Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark02.cs" />
-    <Compile Include="Assets/Unity Imported Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshSpawner.cs" />
+    <Compile Include="Assets/Oculus/Avatar/Scripts/OvrAvatarSettings.cs" />
+    <Compile Include="Assets/Oculus/Avatar/Scripts/GazeTarget.cs" />
+    <Compile Include="Assets/Oculus/Avatar/Scripts/OvrAvatarSkinnedMeshRenderComponent.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Scripts/CowController.cs" />
+    <Compile Include="Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Scripts/RoomManager.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Core/CustomHands/Scripts/HandPose.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Core/HandsInteraction/Scripts/Tools/InteractableTool.cs" />
+    <Compile Include="Assets/Oculus/AudioManager/Scripts/Audio/SoundFXRef.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Core/Video/Plugins/Android/NativeVideoPlayer.cs" />
+    <Compile Include="Assets/Oculus/AudioManager/Scripts/Audio/SoundFX.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/TeleportAimVisualLaser.cs" />
+    <Compile Include="Assets/Oculus/Spatializer/scripts/ONSPPropagationGeometry.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Core/Video/Scripts/MoviePlayerSample.cs" />
     <Compile Include="Assets/Unity Imported Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01_UGUI.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/TeleportDestination.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Scripts/TrainButtonVisualController.cs" />
+    <Compile Include="Assets/Scripts/Scripts provided/SoundManager.cs" />
     <Compile Include="Assets/Unity Imported Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_A.cs" />
-    <Compile Include="Assets/Unity Imported Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark03.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/SimpleCapsuleWithStickMovement.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Core/HandsInteraction/Scripts/InteractableRegistry.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Core/DebugUI/Scripts/HandedInputSelector.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Core/DistanceGrab/Scripts/DistanceGrabbable.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Scripts/Utils/Pose.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/TeleportInputHandlerHMD.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/TeleportInputHandler.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Core/DistanceGrab/Scripts/GrabManager.cs" />
+    <Compile Include="Assets/Scripts/Scripts to go through/MemoryPlatforms.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/CharacterCameraConstraint.cs" />
     <Compile Include="Assets/Unity Imported Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeA.cs" />
     <Compile Include="Assets/Unity Imported Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark04.cs" />
-    <Compile Include="Assets/Unity Imported Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_FrameRateCounter.cs" />
+    <Compile Include="Assets/Oculus/Avatar/Samples/LocalAvatar/Scripts/GazeTargetSpawner.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/TeleportTransitionWarp.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Core/Video/Scripts/VectorUtil.cs" />
+    <Compile Include="Assets/Oculus/Avatar/Scripts/OvrAvatarAsset.cs" />
+    <Compile Include="Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Scripts/SocialPlatformManager.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Core/DistanceGrab/Scripts/PauseOnInputLoss.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Core/HandsInteraction/Scripts/InteractableToolsCreator.cs" />
+    <Compile Include="Assets/Oculus/Spatializer/scripts/ONSPPropagationMaterial.cs" />
     <Compile Include="Assets/Unity Imported Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ChatController.cs" />
-    <Compile Include="Assets/Unity Imported Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexJitter.cs" />
+    <Compile Include="Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Scripts/P2PManager.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Core/DebugUI/Scripts/DebugUIBuilder.cs" />
     <Compile Include="Assets/Unity Imported Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshProFloatingText.cs" />
-    <Compile Include="Assets/Unity Imported Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventHandler.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/TeleportSupport.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Core/HandsInteraction/Scripts/ButtonController.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Core/CustomHands/Scripts/Hand.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/TeleportOrientationHandler.cs" />
+    <Compile Include="Assets/Oculus/Avatar/Samples/RemoteLoopback/Scripts/RemoteLoopbackManager.cs" />
     <Compile Include="Assets/Unity Imported Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeB.cs" />
-    <Compile Include="Assets/Unity Imported Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_B.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Usage/Locomotion/Scripts/LocomotionSampleSupport.cs" />
     <Compile Include="Assets/Unity Imported Assets/TextMesh Pro/Examples &amp; Extras/Scripts/EnvMapAnimator.cs" />
     <Compile Include="Assets/Unity Imported Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_UiFrameRateCounter.cs" />
+    <Compile Include="Assets/Oculus/Spatializer/scripts/ONSPPropagationSettings.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Usage/Locomotion/Scripts/CharacterCapsule.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/LocomotionController.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/TeleportTargetHandlerPhysical.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Scripts/TrainTrack.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Core/DistanceGrab/Scripts/DistanceGrabber.cs" />
+    <Compile Include="Assets/Oculus/Spatializer/scripts/helpers/ONSPReflectionZone.cs" />
+    <Compile Include="Assets/Oculus/Avatar/Scripts/OvrAvatarLocalDriver.cs" />
+    <Compile Include="Assets/Oculus/Avatar/Scripts/OvrAvatarBase.cs" />
+    <Compile Include="Assets/Oculus/Spatializer/scripts/ONSPProfiler.cs" />
+    <Compile Include="Assets/Oculus/Avatar/Scripts/OvrAvatarAssetTexture.cs" />
     <Compile Include="Assets/Unity Imported Assets/TextMesh Pro/Examples &amp; Extras/Scripts/CameraController.cs" />
-    <Compile Include="Assets/Unity Imported Assets/TextMesh Pro/Examples &amp; Extras/Scripts/DropdownSample.cs" />
-    <Compile Include="Assets/Unity Imported Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_PhoneNumberValidator.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Core/HandsInteraction/Scripts/Interactable.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Core/TouchControllers/TouchController.cs" />
+    <Compile Include="Assets/Oculus/AudioManager/Scenes/Scripts/TestScript.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Scripts/TrainCar.cs" />
+    <Compile Include="Assets/Scripts/Scripts to go through/GameManager.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/TeleportPoint.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Core/HandsInteraction/Scripts/Tools/FingerTipPokeTool.cs" />
+    <Compile Include="Assets/Oculus/Avatar/Samples/GripPoses/Scripts/PoseEditHelper.cs" />
     <Compile Include="Assets/Unity Imported Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMPro_InstructionOverlay.cs" />
-    <Compile Include="Assets/Unity Imported Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexColorCycler.cs" />
-    <Compile Include="Assets/Unity Imported Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TeleType.cs" />
     <Compile Include="Assets/Unity Imported Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_ExampleScript_01.cs" />
     <Compile Include="Assets/Unity Imported Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextConsoleSimulator.cs" />
-    <Compile Include="Assets/Unity Imported Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexZoom.cs" />
     <Compile Include="Assets/Unity Imported Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ObjectSpin.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/TeleportTargetHandlerNavMesh.cs" />
+    <Compile Include="Assets/Oculus/Spatializer/scripts/ONSPSettings.cs" />
+    <Compile Include="Assets/Oculus/Avatar/Scripts/OvrAvatarTouchController.cs" />
     <Compile Include="Assets/Unity Imported Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextInfoDebugTool.cs" />
-    <Compile Include="Assets/Unity Imported Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Scripts/ControllerBoxController.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Usage/AppDeeplink/UI/CustomDebugUI.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Core/Video/Scripts/ButtonDownListener.cs" />
+    <Compile Include="Assets/Scripts/Scripts provided/ClimbInteractable.cs" />
     <Compile Include="Assets/Unity Imported Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventCheck.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/TeleportAimHandlerLaser.cs" />
+    <Compile Include="Assets/Scripts/Scripts provided/RockWall.cs" />
+    <Compile Include="Assets/Unity Imported Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ShaderPropAnimator.cs" />
+    <Compile Include="Assets/Oculus/AudioManager/Scripts/Audio/AudioManager.cs" />
+    <Compile Include="Assets/Oculus/Avatar/Scripts/OvrAvatar.cs" />
+    <Compile Include="Assets/Scripts/Scripts provided/FinaleSequence.cs" />
+    <Compile Include="Assets/Unity Imported Assets/TextMesh Pro/Examples &amp; Extras/Scripts/WarpTextExample.cs" />
+    <Compile Include="Assets/Oculus/Avatar/Scripts/OvrAvatarMaterialManager.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Core/HandsInteraction/Scripts/ColliderZone.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Core/Video/Scripts/MoviePlayerSampleControls.cs" />
+    <Compile Include="Assets/Oculus/Spatializer/scripts/ONSPAudioSource.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Scripts/WindmillController.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Core/DebugUI/Scripts/LaserPointer.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/TeleportTransition.cs" />
+    <Compile Include="Assets/Unity Imported Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_DigitValidator.cs" />
+    <Compile Include="Assets/Oculus/Avatar/Scripts/OvrAvatarSDKCAPI.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Scripts/SelectionCylinder.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Scripts/PanelHMDFollower.cs" />
+    <Compile Include="Assets/Oculus/AudioManager/Scripts/Utils/FastList.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Usage/AppDeeplink/AppDeeplinkUI.cs" />
+    <Compile Include="Assets/Oculus/Avatar/Scripts/OvrAvatarSDKManager.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Usage/DebugUI/DebugUISample.cs" />
+    <Compile Include="Assets/Unity Imported Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark02.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Core/HandsInteraction/Scripts/ButtonTriggerZone.cs" />
+    <Compile Include="Assets/Unity Imported Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshSpawner.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Core/HandsInteraction/Scripts/BoneCapsuleTriggerLogic.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Core/DistanceGrab/Scripts/ColorGrabbable.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Core/Video/Scripts/MediaPlayerImage.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Usage/DistanceGrab/Scripts/DistanceGrabberSample.cs" />
+    <Compile Include="Assets/Scripts/Scripts to go through/ThrowingSequence.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Core/HandsInteraction/Scripts/HandsManager.cs" />
+    <Compile Include="Assets/Oculus/Avatar/Scripts/OvrAvatarSettingsEditor.cs" />
+    <Compile Include="Assets/Unity Imported Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark03.cs" />
+    <Compile Include="Assets/Oculus/Avatar/Scripts/OvrAvatarPacket.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/TeleportTargetHandlerNode.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Core/DistanceGrab/Scripts/GrabbableCrosshair.cs" />
+    <Compile Include="Assets/Oculus/Avatar/Scripts/OvrAvatarAssetMesh.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Scripts/TrainLocomotive.cs" />
+    <Compile Include="Assets/Oculus/Avatar/Scripts/OvrAvatarRenderComponent.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/TeleportOrientationHandlerThumbstick.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Scripts/TrainCrossingController.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Usage/StartScene/Scripts/StartMenu.cs" />
+    <Compile Include="Assets/Oculus/Spatializer/scripts/ONSPVersion.cs" />
+    <Compile Include="Assets/Unity Imported Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_FrameRateCounter.cs" />
+    <Compile Include="Assets/Oculus/Avatar/Scripts/OvrAvatarBody.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/TeleportTransitionBlink.cs" />
+    <Compile Include="Assets/Scripts/Scripts provided/HandAnimator.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Core/HandsInteraction/Scripts/Tools/PinchStateModule.cs" />
+    <Compile Include="Assets/Oculus/Avatar/Scripts/OvrAvatarSkinnedMeshRenderPBSComponent.cs" />
+    <Compile Include="Assets/Oculus/AudioManager/Scripts/Utils/InspectorNoteAttribute.cs" />
+    <Compile Include="Assets/Oculus/Avatar/Scripts/OvrAvatarLogger.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Scripts/WindmillBladesController.cs" />
+    <Compile Include="Assets/Oculus/Avatar/Scripts/OvrAvatarRemoteDriver.cs" />
+    <Compile Include="Assets/Oculus/Avatar/Scripts/OvrAvatarHand.cs" />
+    <Compile Include="Assets/Unity Imported Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexJitter.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/TeleportInputHandlerTouch.cs" />
+    <Compile Include="Assets/Scripts/Scripts to go through/TargetArea.cs" />
+    <Compile Include="Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Scripts/VoipManager.cs" />
+    <Compile Include="Assets/Unity Imported Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventHandler.cs" />
+    <Compile Include="Assets/Oculus/AudioManager/Scripts/Audio/MinMaxAttribute.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/TeleportTransitionInstant.cs" />
+    <Compile Include="Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Scripts/RemotePlayer.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Core/HandsInteraction/Scripts/Tools/InteractableToolView.cs" />
+    <Compile Include="Assets/Unity Imported Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_B.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Core/HandsInteraction/Scripts/InteractableToolsInputRouter.cs" />
+    <Compile Include="Assets/Oculus/Spatializer/scripts/ONSPAmbisonicsNative.cs" />
+    <Compile Include="Assets/Oculus/AudioManager/Scripts/Audio/AmbienceEmitter.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/LocomotionTeleport.cs" />
+    <Compile Include="Assets/Oculus/AudioManager/Scripts/Audio/SoundEmitter.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Usage/OVROverlayCanvas/Scripts/OVROverlayCanvas.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/TeleportOrientationHandler360.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/TeleportAimHandler.cs" />
+    <Compile Include="Assets/Oculus/Spatializer/scripts/ONSPPropagationInterface.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Core/HandsInteraction/Scripts/Tools/RayToolView.cs" />
+    <Compile Include="Assets/Unity Imported Assets/TextMesh Pro/Examples &amp; Extras/Scripts/DropdownSample.cs" />
+    <Compile Include="Assets/Oculus/Avatar/Samples/AvatarGallery/Scripts/OvrAvatarTestDriver.cs" />
+    <Compile Include="Assets/Unity Imported Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_PhoneNumberValidator.cs" />
+    <Compile Include="Assets/Oculus/Avatar/Scripts/OvrAvatarDriver.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Scripts/TrainCarBase.cs" />
+    <Compile Include="Assets/Unity Imported Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexColorCycler.cs" />
+    <Compile Include="Assets/Oculus/Avatar/Scripts/OvrAvatarComponent.cs" />
+    <Compile Include="Assets/Unity Imported Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TeleType.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Core/HandsInteraction/Scripts/Tools/RayTool.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Core/HandsInteraction/Scripts/Tools/FingerTipPokeToolView.cs" />
+    <Compile Include="Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/Sources/Scripts/MouseLook.cs" />
+    <Compile Include="Assets/Unity Imported Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexZoom.cs" />
+    <Compile Include="Assets/Oculus/Avatar/Scripts/OvrAvatarTextureCopyManager.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Usage/OVROverlay/Scripts/OVROverlaySample.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/TeleportTargetHandler.cs" />
+    <Compile Include="Assets/Unity Imported Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01.cs" />
+    <Compile Include="Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Scripts/PlayerController.cs" />
+    <Compile Include="Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Scripts/TrackSegment.cs" />
+    <Compile Include="Assets/Scripts/Scripts to go through/StumpInteractable.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Shaders/XingLightShader.shader" />
     <None Include="Assets/Unity Imported Assets/TextMesh Pro/Shaders/TMPro.cginc" />
+    <None Include="Assets/Oculus/Avatar/Resources/Materials/AvatarMaterialStateShader.cginc" />
     <None Include="Assets/Unity Imported Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Shaders/ButtonGlow.shader" />
     <None Include="Assets/Unity Imported Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" />
+    <None Include="Assets/Oculus/SampleFramework/Usage/DistanceGrab/Materials/CrosshairZCheat.shader" />
+    <None Include="Assets/Oculus/Avatar/Resources/Materials/Version1.5/Avatar_Mobile_Loader.shader" />
+    <None Include="Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Shaders/GradientSkybox.shader" />
+    <None Include="Assets/Oculus/Avatar/Resources/Materials/Version1.5/Avatar_Mobile_SingleComponent.shader" />
     <None Include="Assets/Unity Imported Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Oswald-Bold - OFL.txt" />
+    <None Include="Assets/Oculus/Avatar/Resources/Materials/AvatarSurfaceShader.shader" />
     <None Include="Assets/Unity Imported Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Anton OFL.txt" />
+    <None Include="Assets/Oculus/Avatar/Resources/Materials/Expressive/AvatarEyeLens.shader" />
+    <None Include="Assets/Oculus/Avatar/Resources/Materials/Expressive/Avatar_PC_SingleComponentExpressive.shader" />
     <None Include="Assets/Unity Imported Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc" />
     <None Include="Assets/Unity Imported Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader" />
+    <None Include="Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Shaders/OculusSampleTrainPropsShader.shader" />
+    <None Include="Assets/Oculus/SampleFramework/Usage/DistanceGrab/Materials/ToyCubeWithOutline.shader" />
+    <None Include="Assets/Oculus/SampleFramework/Core/Locomotion/Materials/ColumnGlow.shader" />
     <None Include="Assets/Unity Imported Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets/Oculus/Avatar/Resources/Materials/Expressive/Avatar_Mobile_CombinedMeshExpressive.shader" />
+    <None Include="Assets/Oculus/Avatar/Resources/Materials/Version1.5/Avatar_PC_SingleComponent.shader" />
+    <None Include="Assets/Oculus/Avatar/Resources/Materials/AvatarSurfaceShaderPBSV2.shader" />
+    <None Include="Assets/Oculus/Avatar/Resources/Materials/Version1.5/Avatar_Mobile_CombinedMesh.shader" />
+    <None Include="Assets/Oculus/SampleFramework/Core/Video/Shaders/Multiview Stereo.shader" />
+    <None Include="Assets/Oculus/SampleFramework/Core/DebugUI/Fonts/Montserrat/OFL.txt" />
+    <None Include="Assets/Oculus/Avatar/Samples/SocialStarter/README.txt" />
+    <None Include="Assets/Oculus/SampleFramework/Usage/OVROverlayCanvas/Shaders/UI Default Correct.shader" />
+    <None Include="Assets/Oculus/SampleFramework/Core/CustomHands/Shaders/Hands_01.shader" />
     <None Include="Assets/Unity Imported Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" />
+    <None Include="Assets/Oculus/Avatar/Resources/Materials/AvatarPBRV2Simple.shader" />
     <None Include="Assets/Unity Imported Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt" />
     <None Include="Assets/Unity Imported Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader" />
     <None Include="Assets/Unity Imported Assets/TextMesh Pro/Shaders/TMP_SDF.shader" />
     <None Include="Assets/Unity Imported Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader" />
     <None Include="Assets/Unity Imported Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt" />
     <None Include="Assets/Unity Imported Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc" />
+    <None Include="Assets/Oculus/Avatar/Resources/Materials/AvatarSurfaceShaderSelfOccluding.shader" />
     <None Include="Assets/Unity Imported Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc" />
+    <None Include="Assets/Oculus/SampleFramework/Core/HandsInteraction/Shaders/OculusSampleAlphaHandOutline.shader" />
     <None Include="Assets/Unity Imported Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt" />
     <None Include="Assets/Unity Imported Assets/SimpleLowPolyNature/Readme.txt" />
     <None Include="Assets/Unity Imported Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Shaders/OculusSampleTrainSmokeShader.shader" />
+    <None Include="Assets/Oculus/SampleFramework/Usage/OVROverlayCanvas/Shaders/UI Prerendered Opaque.shader" />
+    <None Include="Assets/Oculus/SampleFramework/Core/Video/Plugins/Android/Audio360/NOTICE.txt" />
     <None Include="Assets/Unity Imported Assets/SimpleLowPolyNature/Shaders/SimpleWater.shader" />
+    <None Include="Assets/Oculus/SampleFramework/Usage/Locomotion/Shaders/TriPlanarWorld.shader" />
     <None Include="Assets/Unity Imported Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader" />
+    <None Include="Assets/Oculus/SampleFramework/Core/Video/Plugins/Android/Audio360/ThirdPartyNotices.txt" />
     <None Include="Assets/Unity Imported Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets/Oculus/SampleFramework/Usage/OVROverlayCanvas/Shaders/UI Prerendered.shader" />
+    <None Include="Assets/Oculus/Avatar/Samples/CrossPlatform/Readme.txt" />
+    <None Include="Assets/Oculus/Avatar/Resources/Materials/AvatarSurfaceShaderPBS.shader" />
+    <None Include="Assets/Oculus/SampleFramework/Core/CustomHands/Materials/Hands_Transparent.shader" />
     <None Include="Assets/Unity Imported Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt" />
+    <None Include="Assets/Oculus/Spatializer/Plugins/x86/AudioPluginOculusSpatializer.dll" />
     <None Include="Assets/Unity Imported Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader" />
+    <None Include="Assets/Oculus/SampleFramework/Core/CustomHands/Shaders/Hands_02.shader" />
+    <None Include="Assets/Oculus/SampleFramework/Core/CustomHands/Materials/Hands_DiffBump.shader" />
+    <None Include="Assets/Oculus/Avatar/Resources/Materials/Expressive/Avatar_Mobile_SingleComponentExpressive.shader" />
+    <None Include="Assets/Oculus/Spatializer/Plugins/x86_64/AudioPluginOculusSpatializer.dll" />
     <None Include="Assets/Unity Imported Assets/TextMesh Pro/Shaders/TMP_Sprite.shader" />
     <None Include="Assets/Unity Imported Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Bangers - OFL.txt" />
+    <None Include="Assets/Oculus/SampleFramework/license.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -791,6 +980,34 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Oculus.VR.Editor.csproj">
+      <Project>{FA737CFB-D010-8D9C-1C24-E711360C8FC4}</Project>
+      <Name>Oculus.VR.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Oculus.VR.Scripts.Editor.csproj">
+      <Project>{6D070C1E-24FB-9C98-D8FE-817B2A82407D}</Project>
+      <Name>Oculus.VR.Scripts.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Oculus.Platform.csproj">
+      <Project>{B8FA59A0-C91A-BB06-F644-5BED6E4AF975}</Project>
+      <Name>Oculus.Platform</Name>
+    </ProjectReference>
+    <ProjectReference Include="Oculus.VR.csproj">
+      <Project>{A69A6E80-EB35-22B1-93F6-0077256D90EA}</Project>
+      <Name>Oculus.VR</Name>
+    </ProjectReference>
+    <ProjectReference Include="Oculus.LipSync.Editor.csproj">
+      <Project>{26F4C3A2-55A7-5813-A514-C741F39220AC}</Project>
+      <Name>Oculus.LipSync.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Oculus.Platform.Editor.csproj">
+      <Project>{041F68FE-DB12-DC2E-9D4E-F42365ADB2DB}</Project>
+      <Name>Oculus.Platform.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Oculus.LipSync.csproj">
+      <Project>{6FA77A37-C2D7-6138-35F1-346962FF2EFE}</Project>
+      <Name>Oculus.LipSync</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

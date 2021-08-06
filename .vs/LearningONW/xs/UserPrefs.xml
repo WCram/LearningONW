@@ -1,13 +1,29 @@
 ﻿<Properties StartupConfiguration="{04B8AE78-3B77-6130-04BE-AF54A0DE1A36}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Library/PackageCache/com.unity.xr.interaction.toolkit@1.0.0-pre.5/Runtime/Locomotion/Teleportation/TeleportationProvider.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Scripts to go through/StumpInteractable.cs">
     <Files>
-      <File FileName="Library/PackageCache/com.unity.xr.interaction.toolkit@1.0.0-pre.5/Runtime/Locomotion/Teleportation/TeleportationProvider.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Scripts to go through/GameManager.cs" Line="180" Column="17" />
+      <File FileName="Assets/Scripts/Scripts provided/SoundManager.cs" />
+      <File FileName="Assets/Scripts/Scripts to go through/MemoryPlatforms.cs" />
+      <File FileName="Assets/Scripts/Scripts to go through/TargetArea.cs" Line="54" Column="1" />
+      <File FileName="Assets/Scripts/Scripts to go through/StumpInteractable.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="LearningONW" expanded="True">
-            <Node name="Assets" expanded="True" selected="True" />
+            <Node name="Assets" expanded="True">
+              <Node name="Oculus" expanded="True">
+                <Node name="SampleFramework" expanded="True">
+                  <Node name="Editor" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="Scripts" expanded="True">
+                <Node name="Scripts provided" expanded="True" />
+                <Node name="Scripts to go through" expanded="True">
+                  <Node name="StumpInteractable.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
           </Node>
         </State>
       </Pad>
@@ -17,7 +33,9 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="c4a13f41-1229-4095-8b49-03be3bddd43e" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/bnavyata/Documents/NonImportant/Unity projects/VR Projects/LearningONW/Assets/Scripts/Scripts to go through/TargetArea.cs" relfile="Assets/Scripts/Scripts to go through/TargetArea.cs" line="23" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

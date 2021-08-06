@@ -17768,7 +17768,7 @@ GameObject:
   - component: {fileID: 3165874525664508808}
   - component: {fileID: 2616328507608340011}
   m_Layer: 0
-  m_Name: Blue particles
+  m_Name: Pink particles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -33764,7 +33764,7 @@ PrefabInstance:
     - target: {fileID: 4114348814130154171, guid: c185f4228ecc7b14cb47ae816197d6b4,
         type: 3}
       propertyPath: m_Name
-      value: BlueTreeStump
+      value: PinkTreeStump
       objectReference: {fileID: 0}
     - target: {fileID: 4114348814130154171, guid: c185f4228ecc7b14cb47ae816197d6b4,
         type: 3}
