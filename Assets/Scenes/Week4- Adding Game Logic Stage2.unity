@@ -762,6 +762,12 @@ MonoBehaviour:
   - {fileID: 626377493}
   - {fileID: 49421542}
   - {fileID: 574615362}
+--- !u!1 &405965461 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5121005214671295440, guid: 2f18e322064504d868beb996f388551e,
+    type: 3}
+  m_PrefabInstance: {fileID: 405965457}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &456749821 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9081628971352882781, guid: 2f18e322064504d868beb996f388551e,
@@ -1212,6 +1218,22 @@ MonoBehaviour:
   m_MatchOrientation: 0
   m_TeleportTrigger: 0
   m_TeleportAnchorTransform: {fileID: 622862178}
+--- !u!114 &622862180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 622862177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0e450c05de7d4c7dbb825c1a9310d11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManager: {fileID: 1029179486}
+  Stage1: {fileID: 405965459}
+  SignText: {fileID: 405965461}
+  StumpName: Pink
 --- !u!1 &626377493 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7260537069577013663, guid: 2f18e322064504d868beb996f388551e,
@@ -1557,6 +1579,22 @@ MonoBehaviour:
   m_MatchOrientation: 0
   m_TeleportTrigger: 0
   m_TeleportAnchorTransform: {fileID: 733894678}
+--- !u!114 &733894680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 733894677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0e450c05de7d4c7dbb825c1a9310d11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManager: {fileID: 1029179486}
+  Stage1: {fileID: 405965459}
+  SignText: {fileID: 405965461}
+  StumpName: Tan
 --- !u!1001 &738337857
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1845,6 +1883,22 @@ MonoBehaviour:
   m_MatchOrientation: 0
   m_TeleportTrigger: 0
   m_TeleportAnchorTransform: {fileID: 829427998}
+--- !u!114 &829428000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 829427997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0e450c05de7d4c7dbb825c1a9310d11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManager: {fileID: 1029179486}
+  Stage1: {fileID: 405965459}
+  SignText: {fileID: 405965461}
+  StumpName: Purple
 --- !u!1 &929547765
 GameObject:
   m_ObjectHideFlags: 0
@@ -2277,6 +2331,22 @@ MonoBehaviour:
   m_MatchOrientation: 0
   m_TeleportTrigger: 0
   m_TeleportAnchorTransform: {fileID: 1192334918}
+--- !u!114 &1192334920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1192334917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0e450c05de7d4c7dbb825c1a9310d11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManager: {fileID: 1029179486}
+  Stage1: {fileID: 405965459}
+  SignText: {fileID: 405965461}
+  StumpName: Orange
 --- !u!95 &1195047750 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 95022414942611548, guid: e6ba3498ffa1e534b91a07264266e6b8,
@@ -2519,6 +2589,22 @@ MonoBehaviour:
   m_MatchOrientation: 0
   m_TeleportTrigger: 0
   m_TeleportAnchorTransform: {fileID: 1419822419}
+--- !u!114 &1419822421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1419822418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0e450c05de7d4c7dbb825c1a9310d11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManager: {fileID: 1029179486}
+  Stage1: {fileID: 405965459}
+  SignText: {fileID: 405965461}
+  StumpName: Red
 --- !u!1001 &1495150682
 PrefabInstance:
   m_ObjectHideFlags: 0
