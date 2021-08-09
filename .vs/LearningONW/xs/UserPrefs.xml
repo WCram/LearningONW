@@ -1,11 +1,14 @@
 ﻿<Properties StartupConfiguration="{04B8AE78-3B77-6130-04BE-AF54A0DE1A36}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Scripts to go through/TargetArea.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Scripts to go through/BoatScoreArea.cs">
     <Files>
-      <File FileName="Assets/Scripts/Scripts to go through/GameManager.cs" Line="180" Column="17" />
+      <File FileName="Assets/Scripts/Scripts to go through/ThrowingSequence.cs" Line="29" Column="48" />
+      <File FileName="Assets/Scripts/Scripts to go through/GameManager.cs" Line="263" Column="12" />
       <File FileName="Assets/Scripts/Scripts provided/SoundManager.cs" />
-      <File FileName="Assets/Scripts/Scripts to go through/MemoryPlatforms.cs" Line="61" Column="25" />
-      <File FileName="Assets/Scripts/Scripts to go through/TargetArea.cs" Line="23" Column="1" />
-      <File FileName="Assets/Scripts/Scripts to go through/StumpInteractable.cs" Line="51" Column="10" />
+      <File FileName="Assets/Scripts/Scripts to go through/MemoryPlatforms.cs" Line="134" Column="44" />
+      <File FileName="Assets/Scripts/Scripts to go through/TargetArea.cs" Line="26" Column="46" />
+      <File FileName="Assets/Scripts/Scripts to go through/StumpInteractable.cs" Line="50" Column="26" />
+      <File FileName="Assets/Oculus/SampleFramework/Editor/OculusSampleFrameworkUtil.cs" Line="43" Column="7" />
+      <File FileName="Assets/Scripts/Scripts to go through/BoatScoreArea.cs" Line="12" Column="13" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -20,7 +23,7 @@
               <Node name="Scripts" expanded="True">
                 <Node name="Scripts provided" expanded="True" />
                 <Node name="Scripts to go through" expanded="True">
-                  <Node name="TargetArea.cs" selected="True" />
+                  <Node name="BoatScoreArea.cs" selected="True" />
                 </Node>
               </Node>
             </Node>
@@ -31,7 +34,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="c4a13f41-1229-4095-8b49-03be3bddd43e" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="59cbb652-9011-4b6e-845a-5bb72bb8a2a7" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

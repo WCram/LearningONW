@@ -4,15 +4,44 @@ using UnityEngine;
 
 public class ThrowingSequence : MonoBehaviour
 {
+    [Header("Manager References")]
+    public GameManager gameManager;
+    public SoundManager soundManager;
+
+    public List<GameObject> balls;
+    public List<GameObject> particles;
+    private List<bool> boatsHidden;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        gameManager.hideObjects(particles);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void setHiddenBoat(int index)
     {
-        
+        boatsHidden[index] = true;
+
+        if (boatsHidden[0] && boatsHidden[1] && boatsHidden[2])
+        {
+            //stage completed
+            soundManager.PlayDing();
+            gameManager.showObjects(particles);
+            gameManager.GetComponent<GameManager>().ActivateStage(2);
+            StartCoroutine(delayShow());
+        }
+    }
+
+    public void resetBallPositions()
+    {
+        balls[0].transform.position = new Vector3(-7.41f, 1.16f, 2.473f);
+        balls[1].transform.position = new Vector3(-7.46f, 1.16f, 2.681f);
+        balls[2].transform.position = new Vector3(-7.1f, 1.16f, 2.644f);
+    }
+
+    private IEnumerator delayShow()
+    {
+        yield return new WaitForSeconds(3);
+        gameManager.showObjects(particles);
     }
 }

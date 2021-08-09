@@ -24,7 +24,6 @@ public class TargetArea : MonoBehaviour
         {
             case 0:
                 soundManager.PlayDialogue(2);
-                Debug.Log("Entered trigger for stage1");
                 break;
             case 1:
                 soundManager.PlayDialogue(3);

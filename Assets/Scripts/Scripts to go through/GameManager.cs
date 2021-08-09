@@ -251,4 +251,20 @@ public class GameManager : MonoBehaviour
         LeftHand.SendHapticImpulse(0.5f, 1f);
         RightHand.SendHapticImpulse(0.5f, 1f);
     }
+
+    public void hideObjects(List<GameObject> objects)
+    {
+        foreach (GameObject obj in objects)
+        {
+            obj.SetActive(false);
+        }
+    }
+
+    public void showObjects(List<GameObject> objects)
+    {
+        foreach (GameObject obj in objects)
+        {
+            obj.SetActive(true);
+        }
+    }
 }

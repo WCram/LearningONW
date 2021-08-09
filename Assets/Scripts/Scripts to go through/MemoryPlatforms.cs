@@ -25,14 +25,8 @@ public class MemoryPlatforms : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        foreach (GameObject stump in highlightedStumps)
-        {
-            stump.SetActive(false);
-        }
-        foreach (GameObject particle in particles)
-        {
-            particle.SetActive(false);
-        }
+        gameManager.hideObjects(highlightedStumps);
+        gameManager.hideObjects(particles);
         memorySequence = new int[sequenceLength];
         SetUpMemorySequence();
     }
@@ -64,14 +58,8 @@ public class MemoryPlatforms : MonoBehaviour
         isAnimating = true;
         seqIndex++;
 
-        foreach (GameObject stump in stumps)
-        {
-            stump.SetActive(true);
-        }
-        foreach (GameObject stump in highlightedStumps)
-        {
-            stump.SetActive(false);
-        }
+        gameManager.showObjects(stumps);
+        gameManager.hideObjects(highlightedStumps);
 
         if (seqIndex == sequenceLength)
         {
@@ -134,10 +122,7 @@ public class MemoryPlatforms : MonoBehaviour
     public void StageComplete()
     {
         soundManager.PlayDing();
-        foreach(GameObject particle in particles)
-        {
-            particle.SetActive(true);
-        }
+        gameManager.showObjects(particles);
         StartCoroutine(HideParticles());
         gameManager.GetComponent<GameManager>().ActivateStage(1);
     }
@@ -146,9 +131,6 @@ public class MemoryPlatforms : MonoBehaviour
     {
         float sec = 3f;
         yield return new WaitForSeconds(sec);
-        foreach (GameObject particle in particles)
-        {
-            particle.SetActive(false);
-        }
+        gameManager.hideObjects(particles);
     }
 }
