@@ -857,3 +857,158 @@ Received Import Request.
   path: Assets/Scenes/Week6- Finale.unity
   artifactKey: Guid(378f077d3661143e998111f83b1d836c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scenes/Week6- Finale.unity using Guid(378f077d3661143e998111f83b1d836c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50cb72bf171de6018516304b8e0dfef8') in 0.001837 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004760 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 2.03 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.71 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.963 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1964ms)
+		BeginReloadAssembly (190ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (102ms)
+		EndReloadAssembly (1678ms)
+			LoadAssemblies (113ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (506ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (100ms)
+			SetupLoadedEditorAssemblies (704ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (595ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.29 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.60 ms.
+Unloading 2817 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 316.8 MB.
+System memory in use after: 316.8 MB.
+
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3382.
+Total: 6.323505 ms (FindLiveObjects: 0.496240 ms CreateObjectMapping: 0.309154 ms MarkObjects: 5.177437 ms  DeleteObjects: 0.339121 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4789.663276 seconds.
+  path: Assets/Scenes/Week2- Assets.unity
+  artifactKey: Guid(88d7475ecb1ca4daaa7a8f58e2d169c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Week2- Assets.unity using Guid(88d7475ecb1ca4daaa7a8f58e2d169c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1b845ca6a0f2235f1a0ac86b06e7f0b') in 0.022339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 79.805198 seconds.
+  path: Assets/Scenes/Week6- Finale.unity
+  artifactKey: Guid(378f077d3661143e998111f83b1d836c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Week6- Finale.unity using Guid(378f077d3661143e998111f83b1d836c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af47a55056d31f1637e2c7bbfb7d80f9') in 0.004830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.733123 seconds.
+  path: Assets/Scenes/Week4- Adding Game Logic Stage4.unity
+  artifactKey: Guid(f7c1faefc94af45b09efc86ecc5278e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Week4- Adding Game Logic Stage4.unity using Guid(f7c1faefc94af45b09efc86ecc5278e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '805bc16d936a30de7566529d28ab89d8') in 0.003302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.957201 seconds.
+  path: Assets/Scenes/Week2- Assets and stages.unity
+  artifactKey: Guid(61d31fc44f1694121beffa241a0c27c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Week2- Assets and stages.unity using Guid(61d31fc44f1694121beffa241a0c27c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c04d765f90a6e7768bffbd5cef3ab75') in 0.004389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 112.031896 seconds.
+  path: Assets/Scenes/Week3- Locomotion, teleportation and grabbing.unity
+  artifactKey: Guid(e6531a3d3d1c140f0ac63cdb5a3b8c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Week3- Locomotion, teleportation and grabbing.unity using Guid(e6531a3d3d1c140f0ac63cdb5a3b8c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c2d21b5e36d9bd2daaffbbccd7856dc') in 0.002260 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 80.084270 seconds.
+  path: Assets/Scenes/Week4- Adding Game Logic Stage1.unity
+  artifactKey: Guid(b8ee97785d1574f20988bd9f843a55fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Week4- Adding Game Logic Stage1.unity using Guid(b8ee97785d1574f20988bd9f843a55fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb50669771099d02fcaad91db54756f4') in 0.002404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 72.401102 seconds.
+  path: Assets/Scenes/Week4- Adding Game Logic Stage2.unity
+  artifactKey: Guid(ccef2aa03597244abb1ae9b6b637f5dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Week4- Adding Game Logic Stage2.unity using Guid(ccef2aa03597244abb1ae9b6b637f5dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4cd4bee06fe562ad6f061896131250f') in 0.003594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.984202 seconds.
+  path: Assets/Scenes/Week4- Adding Game Logic Stage3.unity
+  artifactKey: Guid(8b5cae56c6f7e44a7ab45c996671e268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Week4- Adding Game Logic Stage3.unity using Guid(8b5cae56c6f7e44a7ab45c996671e268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8a9756609c1ff3a0ab72b07572e196e') in 0.002456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.191095 seconds.
+  path: Assets/Scenes/Week4- Adding Game Logic Stage4.unity
+  artifactKey: Guid(f7c1faefc94af45b09efc86ecc5278e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Week4- Adding Game Logic Stage4.unity using Guid(f7c1faefc94af45b09efc86ecc5278e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9350a5321707f476cccdd4e4f1e019a7') in 0.002415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1684.845531 seconds.
+  path: Assets/Scenes/Week2- Assets and stages.unity
+  artifactKey: Guid(61d31fc44f1694121beffa241a0c27c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Week2- Assets and stages.unity using Guid(61d31fc44f1694121beffa241a0c27c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aae8360db8331bd94f5d88afe55eee68') in 0.001613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 102.437522 seconds.
+  path: Assets/Scenes/Week3- Locomotion, teleportation and grabbing.unity
+  artifactKey: Guid(e6531a3d3d1c140f0ac63cdb5a3b8c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Week3- Locomotion, teleportation and grabbing.unity using Guid(e6531a3d3d1c140f0ac63cdb5a3b8c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93985290d56b7e0ec386574cf3a3fb57') in 0.003727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.929142 seconds.
+  path: Assets/Scenes/Week4- Adding Game Logic Stage1.unity
+  artifactKey: Guid(b8ee97785d1574f20988bd9f843a55fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Week4- Adding Game Logic Stage1.unity using Guid(b8ee97785d1574f20988bd9f843a55fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41f51bf7993600b7345739591db1f73e') in 0.001863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.249312 seconds.
+  path: Assets/Scenes/Week4- Adding Game Logic Stage2.unity
+  artifactKey: Guid(ccef2aa03597244abb1ae9b6b637f5dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Week4- Adding Game Logic Stage2.unity using Guid(ccef2aa03597244abb1ae9b6b637f5dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3f75f1d2c442be9571d7b01248b2104') in 0.001838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.900517 seconds.
+  path: Assets/Scenes/Week4- Adding Game Logic Stage3.unity
+  artifactKey: Guid(8b5cae56c6f7e44a7ab45c996671e268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Week4- Adding Game Logic Stage3.unity using Guid(8b5cae56c6f7e44a7ab45c996671e268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e14e95f119e39c6464bf9ad13e10bd7f') in 0.002661 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.288502 seconds.
+  path: Assets/Scenes/Week4- Adding Game Logic Stage4.unity
+  artifactKey: Guid(f7c1faefc94af45b09efc86ecc5278e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Week4- Adding Game Logic Stage4.unity using Guid(f7c1faefc94af45b09efc86ecc5278e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f52397cfa4ab6bea1ff6b321ba3d4515') in 0.003901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.726295 seconds.
+  path: Assets/Scenes/Week6- Finale.unity
+  artifactKey: Guid(378f077d3661143e998111f83b1d836c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Week6- Finale.unity using Guid(378f077d3661143e998111f83b1d836c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cad2e86f47bc34839e20a7e50cbe8cc') in 0.001375 seconds 
