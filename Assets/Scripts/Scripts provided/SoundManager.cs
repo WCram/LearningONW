@@ -11,7 +11,7 @@ using UnityEngine;
 public class SoundManager : MonoBehaviour
 {
     /** GameManager object */
-    public GameManager manager;
+    public GameManagerFactory manager;
 
     /** Audio source that plays the ding fx */
     public AudioSource dingSource;
@@ -30,20 +30,8 @@ public class SoundManager : MonoBehaviour
 
     void Awake()
     {
-        // Check for instance of SoundManager
-        if (instance == null)
-            // If instance doesnt't exist, set to this
-            instance = this;
-        /*// If instance does exist...
-        else if (instance != this)
-            // Destroy this so we have a single instance of SoundManager (singleton)
-            Destroy(gameObject);
-
         // Set SoundManager to DontDestroyOnLoad so that it won't be destroyed when reloading the scene
-        DontDestroyOnLoad(gameObject);
-
-        if (GameManager.isStage3Done)
-            dialogueSource = gameObject.AddComponent<AudioSource>();*/
+        DontDestroyOnLoad(transform.gameObject);
     }
 
     /** 

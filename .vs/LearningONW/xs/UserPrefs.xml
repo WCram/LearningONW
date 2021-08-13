@@ -1,16 +1,21 @@
 ﻿<Properties StartupConfiguration="{04B8AE78-3B77-6130-04BE-AF54A0DE1A36}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Scripts to go through/Climber.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Scripts provided/SocialGestures.cs">
     <Files>
-      <File FileName="Assets/Scripts/Scripts to go through/ThrowingSequence.cs" Line="50" Column="40" />
-      <File FileName="Assets/Scripts/Scripts to go through/GameManager.cs" Line="184" Column="23" />
-      <File FileName="Assets/Scripts/Scripts provided/SoundManager.cs" />
+      <File FileName="Assets/Scripts/Scripts to go through/ThrowingSequence.cs" />
+      <File FileName="Assets/Scripts/Scripts to go through/GameManager.cs" Line="172" Column="21" />
       <File FileName="Assets/Scripts/Scripts to go through/MemoryPlatforms.cs" />
       <File FileName="Assets/Scripts/Scripts to go through/TargetArea.cs" />
       <File FileName="Assets/Scripts/Scripts to go through/StumpInteractable.cs" />
-      <File FileName="Assets/Oculus/SampleFramework/Editor/OculusSampleFrameworkUtil.cs" Line="43" Column="1" />
-      <File FileName="Assets/Scripts/Scripts to go through/BoatScoreArea.cs" Line="12" Column="1" />
-      <File FileName="Assets/Scripts/Scripts provided/RockWall.cs" Line="18" Column="28" />
-      <File FileName="Assets/Scripts/Scripts to go through/Climber.cs" Line="53" Column="151" />
+      <File FileName="Assets/Oculus/SampleFramework/Editor/OculusSampleFrameworkUtil.cs" />
+      <File FileName="Assets/Scripts/Scripts to go through/BoatScoreArea.cs" />
+      <File FileName="Assets/Scripts/Scripts provided/RockWall.cs" />
+      <File FileName="Assets/Scripts/Scripts to go through/Climber.cs" />
+      <File FileName="Assets/Scripts/Scripts to go through/HandTrackingGameManager.cs" Line="36" Column="21" />
+      <File FileName="Assets/Scripts/Scripts to go through/HandManager.cs" Line="171" Column="1" />
+      <File FileName="Assets/Scripts/Scripts provided/SoundManager.cs" Line="14" Column="39" />
+      <File FileName="Assets/Scripts/Scripts provided/HTSoundManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Scripts provided/GameManagerFactory.cs" Line="7" Column="20" />
+      <File FileName="Assets/Scripts/Scripts provided/SocialGestures.cs" Line="144" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -26,10 +31,10 @@
                 </Node>
               </Node>
               <Node name="Scripts" expanded="True">
-                <Node name="Scripts provided" expanded="True" />
-                <Node name="Scripts to go through" expanded="True">
-                  <Node name="Climber.cs" selected="True" />
+                <Node name="Scripts provided" expanded="True">
+                  <Node name="SocialGestures.cs" selected="True" />
                 </Node>
+                <Node name="Scripts to go through" expanded="True" />
               </Node>
             </Node>
           </Node>
@@ -39,7 +44,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="ee20de44-ce36-46c4-85b8-dd164716c13f" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="108545b1-c729-454c-abad-ec210e7178bb" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

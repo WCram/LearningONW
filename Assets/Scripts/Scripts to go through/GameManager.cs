@@ -5,7 +5,7 @@ using UnityEngine.XR;
 using UnityEngine.XR.Interaction.Toolkit;
 using UnityEngine.SceneManagement;
 
-public class GameManager : MonoBehaviour
+public class GameManager : GameManagerFactory
 {
     [Header("Manager References")]
     public SoundManager soundManager;
@@ -169,7 +169,7 @@ public class GameManager : MonoBehaviour
      * Called when dialogue finishes playing in SoundManager.
      * @param i Dialogue index that JUST played
      */
-    public void DialogueFinished(int i)
+    public override void DialogueFinished(int i)
     {
         switch (i)
         {
