@@ -28,7 +28,7 @@ public class ThrowingSequence : MonoBehaviour
             soundManager.PlayDing();
             gameManager.showObjects(particles);
             gameManager.GetComponent<GameManager>().ActivateStage(2);
-            StartCoroutine(delayShow());
+            StartCoroutine(delayHide());
         }
     }
 
@@ -39,9 +39,15 @@ public class ThrowingSequence : MonoBehaviour
         balls[2].transform.position = new Vector3(-7.1f, 1.16f, 2.644f);
     }
 
-    private IEnumerator delayShow()
+    private IEnumerator delayHide()
     {
         yield return new WaitForSeconds(3);
-        gameManager.showObjects(particles);
+        gameManager.hideObjects(particles);
+    }
+
+    public void ShowBalls()
+    {
+        gameManager.showObjects(balls);
+        resetBallPositions();
     }
 }

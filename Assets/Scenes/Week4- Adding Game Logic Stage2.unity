@@ -287,14 +287,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 62556817}
-  m_LocalRotation: {x: 0.051753644, y: 0.43372747, z: -0.024962993, w: 0.8992102}
-  m_LocalPosition: {x: -27.99, y: 2.211, z: -7.868}
+  m_LocalRotation: {x: 0.016027903, y: 0.43591598, z: -0.011313518, w: 0.8997736}
+  m_LocalPosition: {x: -27.193, y: 1.72, z: -7.318}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1090672768}
   m_Father: {fileID: 0}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 6.588, y: 51.5, z: 0}
+  m_LocalEulerAnglesHint: {x: 2.218, y: 51.691, z: -0.366}
 --- !u!114 &62556821
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -788,7 +788,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   soundManager: {fileID: 515910467}
   rig: {fileID: 62556819}
-  StageNum: 0
+  StageNum: 1
 --- !u!1 &456749821 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9081628971352882781, guid: 2f18e322064504d868beb996f388551e,
@@ -2230,7 +2230,7 @@ MonoBehaviour:
   Stage2: {fileID: 1757261845}
   currentBoat: {fileID: 976642587}
   effectObject: {fileID: 598984065}
-  boatNum: 0
+  boatNum: 2
 --- !u!1 &1090672767
 GameObject:
   m_ObjectHideFlags: 0
@@ -3481,7 +3481,7 @@ MonoBehaviour:
   Stage2: {fileID: 1757261845}
   currentBoat: {fileID: 813889075}
   effectObject: {fileID: 1402594213}
-  boatNum: 0
+  boatNum: 1
 --- !u!95 &1732397390 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 95024934887329368, guid: ba1fa4a8c66106b4988c88fe4b8e8502,

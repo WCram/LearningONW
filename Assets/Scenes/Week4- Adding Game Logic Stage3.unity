@@ -768,6 +768,27 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 405965457}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &419637307 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2550496029114457576, guid: a7eb8c19f205f4ba88fc42c9935ffc9b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1757261844}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &419637308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 419637307}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76f4d3a7aba94497198e5b3cca9c60b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundManager: {fileID: 515910467}
+  rig: {fileID: 62556819}
+  StageNum: 1
 --- !u!1 &456749821 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9081628971352882781, guid: 2f18e322064504d868beb996f388551e,
@@ -1035,6 +1056,12 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8364810420271545531, guid: 2f18e322064504d868beb996f388551e,
     type: 3}
   m_PrefabInstance: {fileID: 405965457}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &598984065 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2550496030378604412, guid: a7eb8c19f205f4ba88fc42c9935ffc9b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1757261844}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &599916901
 GameObject:
@@ -1668,6 +1695,12 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 405965457}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &813889075 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7186417687128088621, guid: a7eb8c19f205f4ba88fc42c9935ffc9b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1757261844}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &823599777
 GameObject:
   m_ObjectHideFlags: 0
@@ -2054,12 +2087,53 @@ MonoBehaviour:
   m_ForceGravityOnDetach: 0
   m_RetainTransformParent: 1
   m_AttachPointCompatibilityMode: 0
+--- !u!1 &976642587 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2550496029977151013, guid: a7eb8c19f205f4ba88fc42c9935ffc9b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1757261844}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &991994504 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2550496029166030229, guid: a7eb8c19f205f4ba88fc42c9935ffc9b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1757261844}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &996528668 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2550496030078059917, guid: a7eb8c19f205f4ba88fc42c9935ffc9b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1757261844}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1006762406 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5794836737192505270, guid: 6702ba50037e44f91b3a6c546d0cd34a,
     type: 3}
   m_PrefabInstance: {fileID: 50249958}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1012509608 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2550496029769167363, guid: a7eb8c19f205f4ba88fc42c9935ffc9b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1757261844}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1012509609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1012509608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0b0da81c9bf44d8bab85438491d0b49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManager: {fileID: 1029179486}
+  Stage2: {fileID: 1757261845}
+  currentBoat: {fileID: 1402594213}
+  effectObject: {fileID: 991994504}
+  boatNum: 0
 --- !u!1 &1019469792 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 195418, guid: ba1fa4a8c66106b4988c88fe4b8e8502,
@@ -2134,6 +2208,29 @@ MonoBehaviour:
   Stage3: {fileID: 1495150684}
   Stage4: {fileID: 707878693}
   Finale: {fileID: 1564081907}
+--- !u!1 &1078991111 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2550496029755198517, guid: a7eb8c19f205f4ba88fc42c9935ffc9b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1757261844}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1078991112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1078991111}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0b0da81c9bf44d8bab85438491d0b49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManager: {fileID: 1029179486}
+  Stage2: {fileID: 1757261845}
+  currentBoat: {fileID: 976642587}
+  effectObject: {fileID: 598984065}
+  boatNum: 2
 --- !u!1 &1090672767
 GameObject:
   m_ObjectHideFlags: 0
@@ -2504,6 +2601,12 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 50249958}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1402594213 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7186417686551709774, guid: a7eb8c19f205f4ba88fc42c9935ffc9b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1757261844}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1419822418 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9081628971552794899, guid: 2f18e322064504d868beb996f388551e,
@@ -2691,6 +2794,27 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1495150682}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1495150685 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1590329989955505238, guid: e6ccb1f97897246da842242aa5951e06,
+    type: 3}
+  m_PrefabInstance: {fileID: 1495150682}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1495150686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1495150685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76f4d3a7aba94497198e5b3cca9c60b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundManager: {fileID: 515910467}
+  rig: {fileID: 62556819}
+  StageNum: 2
 --- !u!1 &1508299522
 GameObject:
   m_ObjectHideFlags: 0
@@ -3356,6 +3480,29 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 50249958}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1704389700 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2550496029548752326, guid: a7eb8c19f205f4ba88fc42c9935ffc9b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1757261844}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1704389701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1704389700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0b0da81c9bf44d8bab85438491d0b49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManager: {fileID: 1029179486}
+  Stage2: {fileID: 1757261845}
+  currentBoat: {fileID: 813889075}
+  effectObject: {fileID: 1402594213}
+  boatNum: 1
 --- !u!95 &1732397390 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 95024934887329368, guid: ba1fa4a8c66106b4988c88fe4b8e8502,
@@ -3447,6 +3594,28 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1757261844}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1757261846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1757261845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bd1245b2b4c94f7aa45913a5e21432b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManager: {fileID: 1029179486}
+  soundManager: {fileID: 515910467}
+  balls:
+  - {fileID: 72283236}
+  - {fileID: 942646472}
+  - {fileID: 1269082026}
+  particles:
+  - {fileID: 991994504}
+  - {fileID: 996528668}
+  - {fileID: 598984065}
 --- !u!1001 &1892308058
 PrefabInstance:
   m_ObjectHideFlags: 0

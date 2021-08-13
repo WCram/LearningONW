@@ -180,7 +180,7 @@ public class GameManager : MonoBehaviour
                 Stage1.GetComponent<MemoryPlatforms>().ShowStage1Animation();
                 break;
             case 3: // Stage 2 audio complete
-                //Stage2.GetComponent<ThrowingSequence>().ShowBalls();
+                Stage2.GetComponent<ThrowingSequence>().ShowBalls();
                 break;
             case 4: // Stage 3 audio complete
                 isStage3Done = true;
