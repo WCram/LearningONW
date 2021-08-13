@@ -827,3 +827,33 @@ Received Import Request.
   path: Assets/Scenes/Week4- Adding Game Logic Stage4.unity
   artifactKey: Guid(f7c1faefc94af45b09efc86ecc5278e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scenes/Week4- Adding Game Logic Stage4.unity using Guid(f7c1faefc94af45b09efc86ecc5278e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3a527319b74dcd8b7cfb6cfbc697d53') in 0.002422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1109.837340 seconds.
+  path: Assets/Scenes/HandSimonSays.unity
+  artifactKey: Guid(8796ecf00f4bb46f1a795cd472455aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/HandSimonSays.unity using Guid(8796ecf00f4bb46f1a795cd472455aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29ef6da1168570b9665acadc8bbd2a09') in 0.005059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 193.057749 seconds.
+  path: Assets/Scenes/Week4- Adding Game Logic Stage4 1.unity
+  artifactKey: Guid(378f077d3661143e998111f83b1d836c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Week4- Adding Game Logic Stage4 1.unity using Guid(378f077d3661143e998111f83b1d836c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '989b699d3189620a9d7773dc263ae82a') in 0.002275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.503449 seconds.
+  path: Assets/Scenes/Week5- Finale.unity
+  artifactKey: Guid(378f077d3661143e998111f83b1d836c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Week5- Finale.unity using Guid(378f077d3661143e998111f83b1d836c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '258a9829985fc942c1dc4cfe5fe8693a') in 0.002537 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.596656 seconds.
+  path: Assets/Scenes/Week6- Finale.unity
+  artifactKey: Guid(378f077d3661143e998111f83b1d836c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Week6- Finale.unity using Guid(378f077d3661143e998111f83b1d836c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf230b42e335e9ff3ff3f8145fa53a0b') in 0.002135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 951.898292 seconds.
+  path: Assets/Scenes/Week6- Finale.unity
+  artifactKey: Guid(378f077d3661143e998111f83b1d836c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Week6- Finale.unity using Guid(378f077d3661143e998111f83b1d836c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50cb72bf171de6018516304b8e0dfef8') in 0.001837 seconds 

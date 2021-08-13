@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{04B8AE78-3B77-6130-04BE-AF54A0DE1A36}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Oculus/VR/Scripts/OVRPlugin.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Scripts to go through/Climber.cs">
     <Files>
       <File FileName="Assets/Scripts/Scripts to go through/ThrowingSequence.cs" Line="50" Column="40" />
       <File FileName="Assets/Scripts/Scripts to go through/GameManager.cs" Line="184" Column="23" />
@@ -11,7 +11,6 @@
       <File FileName="Assets/Scripts/Scripts to go through/BoatScoreArea.cs" Line="12" Column="1" />
       <File FileName="Assets/Scripts/Scripts provided/RockWall.cs" Line="18" Column="28" />
       <File FileName="Assets/Scripts/Scripts to go through/Climber.cs" Line="53" Column="151" />
-      <File FileName="Assets/Oculus/VR/Scripts/OVRPlugin.cs" Line="5310" Column="2" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -23,14 +22,14 @@
                   <Node name="Editor" expanded="True" />
                 </Node>
                 <Node name="VR" expanded="True">
-                  <Node name="Scripts" expanded="True">
-                    <Node name="OVRPlugin.cs" selected="True" />
-                  </Node>
+                  <Node name="Scripts" expanded="True" />
                 </Node>
               </Node>
               <Node name="Scripts" expanded="True">
                 <Node name="Scripts provided" expanded="True" />
-                <Node name="Scripts to go through" expanded="True" />
+                <Node name="Scripts to go through" expanded="True">
+                  <Node name="Climber.cs" selected="True" />
+                </Node>
               </Node>
             </Node>
           </Node>
