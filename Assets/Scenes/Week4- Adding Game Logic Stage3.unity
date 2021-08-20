@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.59937465, g: 0.5997507, b: 0.59948814, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1223,7 +1223,19 @@ MonoBehaviour:
       m_Calls: []
   m_SelectEntered:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 622862180}
+        m_TargetAssemblyTypeName: StumpInteractable, Assembly-CSharp
+        m_MethodName: Teleported
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_SelectExited:
     m_PersistentCalls:
       m_Calls: []
@@ -1279,7 +1291,6 @@ MonoBehaviour:
   gameManager: {fileID: 1029179486}
   Stage1: {fileID: 405965459}
   SignText: {fileID: 405965461}
-  StumpName: Pink
 --- !u!1 &626377493 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7260537069577013663, guid: 2f18e322064504d868beb996f388551e,
@@ -1584,7 +1595,19 @@ MonoBehaviour:
       m_Calls: []
   m_SelectEntered:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 733894680}
+        m_TargetAssemblyTypeName: StumpInteractable, Assembly-CSharp
+        m_MethodName: Teleported
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_SelectExited:
     m_PersistentCalls:
       m_Calls: []
@@ -1640,7 +1663,6 @@ MonoBehaviour:
   gameManager: {fileID: 1029179486}
   Stage1: {fileID: 405965459}
   SignText: {fileID: 405965461}
-  StumpName: Tan
 --- !u!1001 &738337857
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1894,7 +1916,19 @@ MonoBehaviour:
       m_Calls: []
   m_SelectEntered:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 829428000}
+        m_TargetAssemblyTypeName: StumpInteractable, Assembly-CSharp
+        m_MethodName: Teleported
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_SelectExited:
     m_PersistentCalls:
       m_Calls: []
@@ -1950,7 +1984,6 @@ MonoBehaviour:
   gameManager: {fileID: 1029179486}
   Stage1: {fileID: 405965459}
   SignText: {fileID: 405965461}
-  StumpName: Purple
 --- !u!1 &929547765
 GameObject:
   m_ObjectHideFlags: 0
@@ -2406,7 +2439,19 @@ MonoBehaviour:
       m_Calls: []
   m_SelectEntered:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1192334920}
+        m_TargetAssemblyTypeName: StumpInteractable, Assembly-CSharp
+        m_MethodName: Teleported
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_SelectExited:
     m_PersistentCalls:
       m_Calls: []
@@ -2462,7 +2507,6 @@ MonoBehaviour:
   gameManager: {fileID: 1029179486}
   Stage1: {fileID: 405965459}
   SignText: {fileID: 405965461}
-  StumpName: Orange
 --- !u!95 &1195047750 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 95022414942611548, guid: e6ba3498ffa1e534b91a07264266e6b8,
@@ -2670,7 +2714,19 @@ MonoBehaviour:
       m_Calls: []
   m_SelectEntered:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1419822421}
+        m_TargetAssemblyTypeName: StumpInteractable, Assembly-CSharp
+        m_MethodName: Teleported
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_SelectExited:
     m_PersistentCalls:
       m_Calls: []
@@ -2726,7 +2782,6 @@ MonoBehaviour:
   gameManager: {fileID: 1029179486}
   Stage1: {fileID: 405965459}
   SignText: {fileID: 405965461}
-  StumpName: Red
 --- !u!1001 &1495150682
 PrefabInstance:
   m_ObjectHideFlags: 0

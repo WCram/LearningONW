@@ -16,9 +16,6 @@ public class StumpInteractable : MonoBehaviour
     public GameObject Stage1;
     public GameObject SignText;
 
-    [Header("Current Stump Information")]
-    public string StumpName;
-
     private int[] memorySequence;
     private int globalIndex;
     private bool isAnimating;
@@ -56,7 +53,7 @@ public class StumpInteractable : MonoBehaviour
             switch (memorySequence[globalIndex])
             {
                 case 0:
-                    if (StumpName == "Purple")
+                    if (gameObject.name == "PurpleTreeStump")
                     {
                         correctTeleport();
                     }
@@ -67,7 +64,7 @@ public class StumpInteractable : MonoBehaviour
                     }
                     break;
                 case 1:
-                    if (StumpName == "Tan")
+                    if (gameObject.name == "TanTreeStump")
                     {
                         correctTeleport();
                     }
@@ -77,7 +74,7 @@ public class StumpInteractable : MonoBehaviour
                     }
                     break;
                 case 2:
-                    if (StumpName == "Orange")
+                    if (gameObject.name == "OrangeTreeStump")
                     {
                         correctTeleport();
                     }
@@ -87,7 +84,7 @@ public class StumpInteractable : MonoBehaviour
                     }
                     break;
                 case 3:
-                    if (StumpName == "Pink")
+                    if (gameObject.name == "PinkTreeStump")
                     {
                         correctTeleport();
                     }
@@ -97,7 +94,7 @@ public class StumpInteractable : MonoBehaviour
                     }
                     break;
                 case 4:
-                    if (StumpName == "Red")
+                    if (gameObject.name == "RedTreeStump")
                     {
                         correctTeleport();
                     }

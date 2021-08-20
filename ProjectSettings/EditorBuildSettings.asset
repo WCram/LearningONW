@@ -4,7 +4,13 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Week4- Adding Game Logic Stage4.unity
+    guid: f7c1faefc94af45b09efc86ecc5278e0
+  - enabled: 1
+    path: Assets/Scenes/HandSimonSays.unity
+    guid: 8796ecf00f4bb46f1a795cd472455aca
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260,
       type: 2}
