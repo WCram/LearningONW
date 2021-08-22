@@ -161,7 +161,6 @@ public class GameManager : GameManagerFactory
      */
     public override void DialogueFinished(int i)
     {
-        Debug.Log("Dialogue finished");
         switch (i)
         {
             case 0:
@@ -195,7 +194,6 @@ public class GameManager : GameManagerFactory
     */
     IEnumerator DelayDialogue(int secs, int dialogue)
     {
-        Debug.Log("Playing dialogue!");
         yield return new WaitForSeconds(secs);
         soundManager.PlayDialogue(dialogue);
     }

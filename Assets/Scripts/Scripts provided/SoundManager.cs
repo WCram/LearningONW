@@ -58,7 +58,6 @@ public class SoundManager : MonoBehaviour
     private IEnumerator WaitAudio(int i)
     {
         yield return new WaitForSeconds(dialogueSource.clip.length);
-        Debug.Log("Calling manager dialogue finished");
         manager.DialogueFinished(i);
     }
 
@@ -68,7 +67,6 @@ public class SoundManager : MonoBehaviour
      */
     public void PlayDialogue(int dialogueID)
     {
-        Debug.Log("Playing " + dialogueSource);
         // Select the current dialogue sound file
         dialogueSource.clip = dialogue[dialogueID];
 
