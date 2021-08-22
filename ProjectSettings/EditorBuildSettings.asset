@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Week4- Adding Game Logic Stage4.unity
-    guid: f7c1faefc94af45b09efc86ecc5278e0
+    path: Assets/Scenes/Week4 - without simulator.unity
+    guid: 2c7c78c1168a2764a9ab9b1727092578
   - enabled: 1
     path: Assets/Scenes/HandSimonSays.unity
     guid: 8796ecf00f4bb46f1a795cd472455aca

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -552,20 +552,21 @@ MonoBehaviour:
   handManager: {fileID: 396608371}
   soundManager: {fileID: 1649419445}
   dialogueText:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - "Welcome \nto the Hand Tracking stage \nof Oculus Ninja Warrior"
+  - "Once you complete this \nchallenge, you will be teleported\nback to the main
+    scene."
+  - "Put your primary hand \nout in front of you"
+  - "Got it. \nYou will be using your \nleft hand"
+  - "Got it. \nYou will be using your \nright hand"
+  - "There will be a series of gestures \nappearing in front of you"
+  - "Complete 5 gestures in a row \nand you will have finished\n the stage. "
+  - Good thumbs up!
+  - Nice thumbs down!
+  - Paper covers rock!
+  - Rock breaks scissors!
+  - "Scissors or a peace sign, \neither way good job!"
+  - Okay okay! Very nice!
+  - "Congratulations,\nyou have finished the stage, \nback to the races!"
   speechText: {fileID: 1375839018}
 --- !u!4 &1195016217
 Transform:

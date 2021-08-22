@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 /**
  * This class plays Audio for the HandTracking scene.
@@ -30,8 +31,24 @@ public class SoundManager : MonoBehaviour
 
     void Awake()
     {
+        if (instance == null)
+        {
+            instance = this;
+        }
+        else
+        {
+            SoundManager[] soundManagers = FindObjectsOfType<SoundManager>();
+            foreach (SoundManager manager in soundManagers)
+            {
+                Destroy(manager);
+            }
+            instance = this;
+        }
+
+        // If instance doesnt't exist, set to this
+
         // Set SoundManager to DontDestroyOnLoad so that it won't be destroyed when reloading the scene
-        DontDestroyOnLoad(transform.gameObject);
+        //DontDestroyOnLoad(transform.gameObject);
     }
 
     /** 
@@ -41,6 +58,7 @@ public class SoundManager : MonoBehaviour
     private IEnumerator WaitAudio(int i)
     {
         yield return new WaitForSeconds(dialogueSource.clip.length);
+        Debug.Log("Calling manager dialogue finished");
         manager.DialogueFinished(i);
     }
 
@@ -69,5 +87,4 @@ public class SoundManager : MonoBehaviour
         dingSource.clip = ding;
         dingSource.Play();
     }
-
 }

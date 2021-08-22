@@ -38,6 +38,7 @@ public class GameManager : GameManagerFactory
         GameObject[] Stages = GameObject.FindGameObjectsWithTag("Stage");
         if (!isStage3Done)
         {
+            StartCoroutine(DelayDialogue(1, 0));
             foreach (GameObject stage in Stages)
             {
                 stage.SetActive(false);
@@ -96,17 +97,6 @@ public class GameManager : GameManagerFactory
     }
 
     /**
-     * Function to load the main game scene.
-     */
-    public void PlayGame()
-    {
-        Debug.Log("Play Oculus Ninja Warrior");
-        PlayHaptic();
-        soundManager.PlayDing();
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-    }
-
-    /**
      * Function to restart the main game scene.
      */
     public void RestartGame()
@@ -116,7 +106,7 @@ public class GameManager : GameManagerFactory
         Destroy(Scoreboard);
         soundManager.PlayDing();
         //LoadSceneMode.Single: Closes all current loaded Scenes and loads a Scene.
-        SceneManager.LoadScene("GameScene", LoadSceneMode.Single);
+        SceneManager.LoadScene("Week4 - without simulator", LoadSceneMode.Single);
     }
 
     /**
@@ -171,6 +161,7 @@ public class GameManager : GameManagerFactory
      */
     public override void DialogueFinished(int i)
     {
+        Debug.Log("Dialogue finished");
         switch (i)
         {
             case 0:
@@ -204,6 +195,7 @@ public class GameManager : GameManagerFactory
     */
     IEnumerator DelayDialogue(int secs, int dialogue)
     {
+        Debug.Log("Playing dialogue!");
         yield return new WaitForSeconds(secs);
         soundManager.PlayDialogue(dialogue);
     }
