@@ -205,6 +205,12 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 50249958}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &50249960 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2090864066338798765, guid: 6702ba50037e44f91b3a6c546d0cd34a,
+    type: 3}
+  m_PrefabInstance: {fileID: 50249958}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &50249961
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -225,6 +231,12 @@ MonoBehaviour:
   TimerInfo: {fileID: 1183601074}
   CountText: {fileID: 1204084591}
   TimerText: {fileID: 1611351977}
+--- !u!1 &50249962 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6563191103154775908, guid: 6702ba50037e44f91b3a6c546d0cd34a,
+    type: 3}
+  m_PrefabInstance: {fileID: 50249958}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &62556817
 GameObject:
   m_ObjectHideFlags: 0
@@ -846,7 +858,7 @@ GameObject:
   - component: {fileID: 515910470}
   m_Layer: 0
   m_Name: SoundManager
-  m_TagString: SoundManager
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2777,7 +2789,7 @@ PrefabInstance:
     - target: {fileID: 6598815579406187037, guid: 9f5a24a380916d14db9775daab4fe333,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f5a24a380916d14db9775daab4fe333, type: 3}
@@ -3518,7 +3530,7 @@ MonoBehaviour:
   Stage2: {fileID: 1757261845}
   currentBoat: {fileID: 976642587}
   effectObject: {fileID: 598984065}
-  boatNum: 0
+  boatNum: 2
 --- !u!1 &1090672767
 GameObject:
   m_ObjectHideFlags: 0
@@ -4715,6 +4727,57 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1564081905}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1564081908 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2984218695802842709, guid: 9449e79b6e5d64c2894df40008d15d6c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1564081905}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1564081909 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2984218696694556294, guid: 9449e79b6e5d64c2894df40008d15d6c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1564081905}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1564081910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1564081907}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecd72c53439c14b7cad035d99a5a8650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FinaleParticle: {fileID: 1564081909}
+  WinnerParticle1: {fileID: 50249962}
+  WinnerParticle2: {fileID: 50249960}
+  WinnerMenu: {fileID: 1006762406}
+  TimerInfo: {fileID: 1183601074}
+  NextLevelObjects: {fileID: 1564081908}
+--- !u!1 &1564081911 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2984218696651966237, guid: 9449e79b6e5d64c2894df40008d15d6c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1564081905}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1564081912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1564081911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76f4d3a7aba94497198e5b3cca9c60b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundManager: {fileID: 515910467}
+  rig: {fileID: 0}
+  StageNum: 4
 --- !u!1001 &1581461258
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4811,8 +4874,8 @@ MonoBehaviour:
   gameManager: {fileID: 1029179486}
   Stage2: {fileID: 1757261845}
   currentBoat: {fileID: 813889075}
-  effectObject: {fileID: 1402594213}
-  boatNum: 0
+  effectObject: {fileID: 996528668}
+  boatNum: 1
 --- !u!95 &1732397390 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 95024934887329368, guid: ba1fa4a8c66106b4988c88fe4b8e8502,
@@ -4830,6 +4893,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.y
       value: 0.483
+      objectReference: {fileID: 0}
+    - target: {fileID: 2550496029688030717, guid: a7eb8c19f205f4ba88fc42c9935ffc9b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ball
+      objectReference: {fileID: 0}
+    - target: {fileID: 2550496030603166114, guid: a7eb8c19f205f4ba88fc42c9935ffc9b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ball
+      objectReference: {fileID: 0}
+    - target: {fileID: 2550496030621186168, guid: a7eb8c19f205f4ba88fc42c9935ffc9b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ball
       objectReference: {fileID: 0}
     - target: {fileID: 2550496030662050228, guid: a7eb8c19f205f4ba88fc42c9935ffc9b,
         type: 3}

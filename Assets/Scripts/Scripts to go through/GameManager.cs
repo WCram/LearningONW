@@ -100,7 +100,7 @@ public class GameManager : GameManagerFactory
         Destroy(Scoreboard);
         soundManager.PlayDing();
         //LoadSceneMode.Single: Closes all current loaded Scenes and loads a Scene.
-        SceneManager.LoadScene("Week4 - without simulator", LoadSceneMode.Single);
+        SceneManager.LoadScene("GameScene", LoadSceneMode.Single);
     }
 
     /**

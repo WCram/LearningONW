@@ -14,7 +14,7 @@ public class ClimbInteractable : XRBaseInteractable
 
         if (args.interactor is XRRayInteractor)
         {
-            //Climber.climbingHand = args.interactor as XRRayInteractor;
+            Climber.climbingHand = args.interactor as XRRayInteractor;
         }
     }
 
@@ -24,10 +24,10 @@ public class ClimbInteractable : XRBaseInteractable
 
         if (args.interactor is XRRayInteractor)
         {
-            //if (Climber.climbingHand && Climber.climbingHand.name == args.interactor.name)
-            //{
-            //    Climber.climbingHand = null;
-            //}
+            if (Climber.climbingHand && Climber.climbingHand.name == args.interactor.name)
+            {
+               Climber.climbingHand = null;
+            }
         }
     }
 }
