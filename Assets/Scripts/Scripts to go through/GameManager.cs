@@ -35,21 +35,15 @@ public class GameManager : GameManagerFactory
         DontDestroyOnLoad(Scoreboard);
 
         //If stage 3 is complete, set all stages to active and reset rig position else set them all to inactive
-        GameObject[] Stages = GameObject.FindGameObjectsWithTag("Stage");
+        List<GameObject> Stages = new List<GameObject>(GameObject.FindGameObjectsWithTag("Stage"));
         if (!isStage3Done)
         {
             StartCoroutine(DelayDialogue(1, 0));
-            foreach (GameObject stage in Stages)
-            {
-                stage.SetActive(false);
-            }
+            hideObjects(Stages);
         }
         else
         {
-            foreach (GameObject stage in Stages)
-            {
-                stage.SetActive(true);
-            }
+            showObjects(Stages);
             rig.transform.position = new Vector3(9.9f, 0.87f, 0.8f);
         }
     }

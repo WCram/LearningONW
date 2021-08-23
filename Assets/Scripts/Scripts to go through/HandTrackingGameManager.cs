@@ -44,7 +44,12 @@ public class HandTrackingGameManager : GameManagerFactory
                 break;
 
             case 2:
-                StartCoroutine(DetectPrimaryHand());
+                if(OVRPlugin.GetHandTrackingEnabled()){
+                    StartCoroutine(DetectPrimaryHand());
+                }
+                else{
+                    speechText.text = "Please enable hand tracking to proceed";
+                }
                 break;
 
             case 3:
