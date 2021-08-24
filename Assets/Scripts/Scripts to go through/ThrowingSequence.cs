@@ -7,10 +7,9 @@ public class ThrowingSequence : MonoBehaviour
     [Header("Manager References")]
     public GameManager gameManager;
     public SoundManager soundManager;
-
     public List<GameObject> balls;
     public List<GameObject> particles;
-    private List<bool> boatsHidden;
+    private bool[] boatsHidden = new bool[3];
 
     // Start is called before the first frame update
     void Start()
