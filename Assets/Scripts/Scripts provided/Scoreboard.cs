@@ -34,6 +34,16 @@ public class Scoreboard : MonoBehaviour
     private bool gameStarted = false;
     private bool restartPrompted = false;
 
+    void Awake(){
+        Scoreboard[] objs = FindObjectsOfType<Scoreboard>();
+
+        if (objs.Length > 1)
+        {
+            Destroy(this.gameObject);
+        }
+        DontDestroyOnLoad(this.gameObject);
+    }
+
     void Start()
     {
         if (!GameManager.isStage3Done)

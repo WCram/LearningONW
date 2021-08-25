@@ -15,9 +15,6 @@ public class GameManager : GameManagerFactory
     public XRBaseController LeftHand;
     public XRBaseController RightHand;
 
-    [Header("Persistent Game Objects")]
-    public GameObject Scoreboard;
-
     [Header("Stage Game Objects")]
     public GameObject Stage1;
     public GameObject Stage2;
@@ -31,9 +28,6 @@ public class GameManager : GameManagerFactory
     // Start is called before the first frame update
     void Start()
     {
-        //Do not destroy the Scoreboard when loading a new Scene.
-        DontDestroyOnLoad(Scoreboard);
-
         //If stage 3 is complete, set all stages to active and reset rig position else set them all to inactive
         List<GameObject> Stages = new List<GameObject>(GameObject.FindGameObjectsWithTag("Stage"));
         if (!isStage3Done)
@@ -88,6 +82,10 @@ public class GameManager : GameManagerFactory
                 RestartGame();
             }
         }
+        //debug
+        if(Input.GetKeyDown("1")){
+            SceneManager.LoadScene("HandSimonSays", LoadSceneMode.Single);
+        }
     }
 
     /**
@@ -97,7 +95,8 @@ public class GameManager : GameManagerFactory
     {
         Debug.Log("Restart Oculus Ninja Warrior");
         RestartHaptic();
-        Destroy(Scoreboard);
+        Scoreboard scoreboard = FindObjectOfType<Scoreboard>();
+        Destroy(scoreboard);
         soundManager.PlayDing();
         //LoadSceneMode.Single: Closes all current loaded Scenes and loads a Scene.
         SceneManager.LoadScene("GameScene", LoadSceneMode.Single);

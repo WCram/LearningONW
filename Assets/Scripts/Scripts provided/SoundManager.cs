@@ -44,11 +44,6 @@ public class SoundManager : MonoBehaviour
             }
             instance = this;
         }
-
-        // If instance doesnt't exist, set to this
-
-        // Set SoundManager to DontDestroyOnLoad so that it won't be destroyed when reloading the scene
-        //DontDestroyOnLoad(transform.gameObject);
     }
 
     /** 

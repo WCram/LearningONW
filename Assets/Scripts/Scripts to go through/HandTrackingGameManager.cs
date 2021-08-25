@@ -277,4 +277,10 @@ public class HandTrackingGameManager : GameManagerFactory
         speechText.text = dialogueText[currentDialogue];
         soundManager.PlayDialogue(currentDialogue);
     }
+
+    void Update(){
+        if(Input.GetKeyDown("2")){
+            SceneManager.LoadScene("GameScene", LoadSceneMode.Single);
+        }
+    }
 }
