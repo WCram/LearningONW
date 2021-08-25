@@ -60,7 +60,6 @@ public class StumpInteractable : MonoBehaviour
                     else
                     {
                         incorrectTeleport();
-
                     }
                     break;
                 case 1:
@@ -156,8 +155,12 @@ public class StumpInteractable : MonoBehaviour
     private void incorrectTeleport()
     {
         gameManager.GetComponent<GameManager>().IncorrectActionHaptic();
+        SignText.GetComponent<TextMeshProUGUI>().text = "Try again!";
+        StartCoroutine(resetGlobalIndex(1));
+    }
 
-        SignText.GetComponent<TextMeshProUGUI>().text = ":(";
+    private IEnumerator resetGlobalIndex( int i){
+        yield return new WaitForSeconds(i);
         globalIndex = -1;
         Stage1.GetComponent<MemoryPlatforms>().setGlobalIndex(globalIndex);
     }

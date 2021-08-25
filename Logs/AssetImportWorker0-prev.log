@@ -15,12 +15,12 @@ C:/Users/bnavyata/Documents/DeveloperAdvocacy/FRL/Unity Projects/LearningONW
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61432
+64944
 Successfully changed project path to: C:/Users/bnavyata/Documents/DeveloperAdvocacy/FRL/Unity Projects/LearningONW
 C:/Users/bnavyata/Documents/DeveloperAdvocacy/FRL/Unity Projects/LearningONW
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 91.74 ms, found 12 plugins.
-Preloading 2 native plugins for Editor in 2.50 ms.
+Refreshing native plugins compatible for Editor in 762.19 ms, found 12 plugins.
+Preloading 2 native plugins for Editor in 3.03 ms.
 Initialize engine version: 2021.1.16f1 (5fa502fca597)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.16f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/bnavyata/Documents/DeveloperAdvocacy/FRL/Unity Projects/LearningONW/Assets
@@ -36,48 +36,48 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.16f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56048
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56372
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001498 seconds.
+Registered in 0.110200 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 71.99 ms, found 12 plugins.
-Preloading 2 native plugins for Editor in 0.12 ms.
+Refreshing native plugins compatible for Editor in 74.32 ms, found 12 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.668 seconds
+- Completed reload, in  4.321 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1668ms)
-		BeginReloadAssembly (56ms)
+	ReloadAssembly (4321ms)
+		BeginReloadAssembly (1894ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (413ms)
-			LoadAssemblies (53ms)
+		EndReloadAssembly (659ms)
+			LoadAssemblies (1900ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (139ms)
+			SetupTypeCache (370ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (194ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (203ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (72ms)
+				RefreshPlugins (75ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (90ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
+				ProcessInitializeOnLoadAttributes (91ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007939 seconds.
+Registered in 0.507631 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 72.08 ms, found 12 plugins.
+Refreshing native plugins compatible for Editor in 72.43 ms, found 12 plugins.
 Preloading 2 native plugins for Editor in 0.12 ms.
 Microsoft has transitioned support of Windows MR devices to OpenXR in Unity 2021, and recommends using Unity's OpenXR plugin. As such, this Windows XR plugin is marked as deprecated and will be removed in the 2021.2 release. It will continue to be supported in the 2020 LTS.
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -104,30 +104,30 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 [XR] Unable to register input lifecyle provider: [1]
 [XR] OVRP version 1.61.0
 Mono: successfully reloaded assembly
-- Completed reload, in  1.305 seconds
+- Completed reload, in  4.588 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1305ms)
-		BeginReloadAssembly (139ms)
+	ReloadAssembly (4588ms)
+		BeginReloadAssembly (181ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (21ms)
-		EndReloadAssembly (1113ms)
-			LoadAssemblies (82ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (4351ms)
+			LoadAssemblies (2814ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (285ms)
+			SetupTypeCache (712ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (64ms)
-			SetupLoadedEditorAssemblies (587ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (711ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (72ms)
+				RefreshPlugins (73ms)
 				BeforeProcessingInitializeOnLoad (71ms)
-				ProcessInitializeOnLoadAttributes (422ms)
+				ProcessInitializeOnLoadAttributes (545ms)
 				ProcessInitializeOnLoadMethodAttributes (12ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
@@ -135,15 +135,15 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
 Refreshing native plugins compatible for Editor in 1.11 ms, found 12 plugins.
-Preloading 2 native plugins for Editor in 0.15 ms.
+Preloading 2 native plugins for Editor in 0.13 ms.
 Unloading 2918 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 204.9 MB.
 System memory in use after: 205.1 MB.
 
 Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 3352.
-Total: 3.592200 ms (FindLiveObjects: 0.307100 ms CreateObjectMapping: 0.085600 ms MarkObjects: 3.127400 ms  DeleteObjects: 0.071300 ms)
+Total: 3.446100 ms (FindLiveObjects: 0.260400 ms CreateObjectMapping: 0.080700 ms MarkObjects: 3.034800 ms  DeleteObjects: 0.069300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -157,178 +157,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Audio/Dialogues
-  artifactKey: Guid(0a7d102d7bf84e5439955e5ee3b22ab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Dialogues using Guid(0a7d102d7bf84e5439955e5ee3b22ab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c8d6f7029cdd7457089e7976990ce25') in 0.011659 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/Audio/ding.wav
-  artifactKey: Guid(72ba189c0168c40fa9594abb32344002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/ding.wav using Guid(72ba189c0168c40fa9594abb32344002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da325759293a16f1d41d8973c494f83e') in 0.122232 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000155 seconds.
-  path: Assets/Audio/ht00.mp3
-  artifactKey: Guid(368fb91ef05804b988da74d7b03cee10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/ht00.mp3 using Guid(368fb91ef05804b988da74d7b03cee10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fd6309f1d2209bd91fc1c0433ec52f4') in 0.014753 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.941617 seconds.
-  path: Assets/Audio
-  artifactKey: Guid(d2d36bfd116b94b189a760ac06d4bf0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio using Guid(d2d36bfd116b94b189a760ac06d4bf0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45118def93dc08b0ac803fa13cd819f9') in 0.007447 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.836525 seconds.
-  path: Assets/Audio/Background
-  artifactKey: Guid(904246cfda5fedb438eb8514d735c8b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Background using Guid(904246cfda5fedb438eb8514d735c8b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '873ec4004fd6e67cfcef1ff53886f4a7') in 0.006924 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 67.047879 seconds.
-  path: Assets/Adventure Music Lite/carefree_loop.wav
-  artifactKey: Guid(4ceba6cb515298845a44a730ae2a533e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Adventure Music Lite/carefree_loop.wav using Guid(4ceba6cb515298845a44a730ae2a533e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10528ba5abe4b7fc4a986eaf6a9ccb82') in 0.015648 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.654257 seconds.
-  path: Assets/Adventure Music Lite/castle_hill_loop.wav
-  artifactKey: Guid(28194ff8fd51a0b45883850293069879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Adventure Music Lite/castle_hill_loop.wav using Guid(28194ff8fd51a0b45883850293069879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d8337e3bd3c69e45b8e8535b7a579b2') in 0.017481 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.467724 seconds.
-  path: Assets/Adventure Music Lite/heroic_fight_loop.wav
-  artifactKey: Guid(c663d476cd3f39842997f9c61fafc171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Adventure Music Lite/heroic_fight_loop.wav using Guid(c663d476cd3f39842997f9c61fafc171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a83b2bf6ca06807194471a0e5e9b12ab') in 0.023411 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.936695 seconds.
-  path: Assets/Adventure Music Lite/pursuit_loop.wav
-  artifactKey: Guid(d4736b0fa0368a540aa752b5a9260f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Adventure Music Lite/pursuit_loop.wav using Guid(d4736b0fa0368a540aa752b5a9260f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'becddc281a446954106648655a473249') in 0.017744 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.004717 seconds.
-  path: Assets/Adventure Music Lite/undercover_loop.wav
-  artifactKey: Guid(11af57a9fdd42094db60ecd36dad3b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Adventure Music Lite/undercover_loop.wav using Guid(11af57a9fdd42094db60ecd36dad3b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '371a0aca595631f3dac652d119046d7d') in 0.020456 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.424054 seconds.
-  path: Assets/Adventure Music Lite/underwater_loop.wav
-  artifactKey: Guid(7e949e7333b06ee40b6b1a3eb5f50ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Adventure Music Lite/underwater_loop.wav using Guid(7e949e7333b06ee40b6b1a3eb5f50ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3da13882630f5ab5a9dd462932a2b5e') in 0.015633 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.395219 seconds.
-  path: Assets/Adventure Music Lite/_README.txt
-  artifactKey: Guid(30cfedce6d5bd144a9c19520a87e2595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Adventure Music Lite/_README.txt using Guid(30cfedce6d5bd144a9c19520a87e2595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe4c5eca6ff582f7dcf86bc38267dcbc') in 0.013890 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009198 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.71 ms, found 12 plugins.
-Preloading 2 native plugins for Editor in 0.16 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.607 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1608ms)
-		BeginReloadAssembly (133ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (40ms)
-		EndReloadAssembly (1414ms)
-			LoadAssemblies (87ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (310ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (50ms)
-			SetupLoadedEditorAssemblies (795ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (87ms)
-				ProcessInitializeOnLoadAttributes (676ms)
-				ProcessInitializeOnLoadMethodAttributes (12ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (15ms)
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 1.67 ms, found 12 plugins.
-Preloading 2 native plugins for Editor in 0.18 ms.
-Unloading 2825 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 218.4 MB.
-System memory in use after: 218.6 MB.
-
-Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 3364.
-Total: 4.780900 ms (FindLiveObjects: 0.371800 ms CreateObjectMapping: 0.095500 ms MarkObjects: 4.264500 ms  DeleteObjects: 0.047900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 263.568180 seconds.
-  path: Assets/Scenes/GameScene.unity
-  artifactKey: Guid(11c5a553ec9580942b4caff57356445b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GameScene.unity using Guid(11c5a553ec9580942b4caff57356445b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fa719de3f2445f2b45a7fcf9e42990e') in 0.021179 seconds 
-========================================================================
-Received Prepare
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 12.48 ms, found 12 plugins.
-Preloading 2 native plugins for Editor in 0.13 ms.
-Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 145.6 MB.
-System memory in use after: 145.9 MB.
-
-Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 3364.
-Total: 5.777900 ms (FindLiveObjects: 0.373200 ms CreateObjectMapping: 0.090800 ms MarkObjects: 5.272400 ms  DeleteObjects: 0.040400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 10236.620917 seconds.
-  path: Assets/Scenes/GameScene.unity
-  artifactKey: Guid(11c5a553ec9580942b4caff57356445b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GameScene.unity using Guid(11c5a553ec9580942b4caff57356445b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd1a48f030e6de693613277237c1bf6f') in 0.008507 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 90.776414 seconds.
-  path: Assets/Scenes/Week-wise scenes/Week4- Adding Game Logic Stage4.unity
-  artifactKey: Guid(f7c1faefc94af45b09efc86ecc5278e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Week-wise scenes/Week4- Adding Game Logic Stage4.unity using Guid(f7c1faefc94af45b09efc86ecc5278e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1919f7c96be644cd0115f997e97e2f89') in 0.014054 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.692533 seconds.
-  path: Assets/Scenes/Week-wise scenes/Week6- Finale.unity
-  artifactKey: Guid(378f077d3661143e998111f83b1d836c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Week-wise scenes/Week6- Finale.unity using Guid(378f077d3661143e998111f83b1d836c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9f9bdd0d8f662e3d6da3306575dcfa1') in 0.011547 seconds 
+  path: Assets/Prefabs/HandTrackingEnvironment.prefab
+  artifactKey: Guid(85994ecaec8a045df8b686ed7ecdfd26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HandTrackingEnvironment.prefab using Guid(85994ecaec8a045df8b686ed7ecdfd26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26233a7f54393e3a8c76eba1fe1de0bf') in 0.284562 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

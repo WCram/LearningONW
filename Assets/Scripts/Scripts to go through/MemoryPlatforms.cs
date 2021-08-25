@@ -122,6 +122,7 @@ public class MemoryPlatforms : MonoBehaviour
     public void StageComplete()
     {
         soundManager.PlayDing();
+        Debug.Log("Showing particles");
         gameManager.showObjects(particles);
         StartCoroutine(HideParticles());
         gameManager.GetComponent<GameManager>().ActivateStage(1);
