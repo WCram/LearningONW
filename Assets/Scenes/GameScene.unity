@@ -744,6 +744,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Stage
       objectReference: {fileID: 0}
+    - target: {fileID: 5121005214924769363, guid: 2f18e322064504d868beb996f388551e,
+        type: 3}
+      propertyPath: m_TagString
+      value: TargetArea
+      objectReference: {fileID: 0}
     - target: {fileID: 5121005214924769366, guid: 2f18e322064504d868beb996f388551e,
         type: 3}
       propertyPath: m_IsTrigger
@@ -4986,6 +4991,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1563669243}
     m_Modifications:
+    - target: {fileID: 2550496029114457576, guid: a7eb8c19f205f4ba88fc42c9935ffc9b,
+        type: 3}
+      propertyPath: m_TagString
+      value: TargetArea
+      objectReference: {fileID: 0}
     - target: {fileID: 2550496029114457579, guid: a7eb8c19f205f4ba88fc42c9935ffc9b,
         type: 3}
       propertyPath: m_LocalPosition.y

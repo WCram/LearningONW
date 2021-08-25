@@ -39,6 +39,11 @@ public class FinaleSequence : MonoBehaviour
         NextLevelObjects.SetActive(true);
 
         StartCoroutine(HideParticles());
+        GameObject[] targets =  GameObject.FindGameObjectsWithTag("TargetArea");
+        //remove the targets that trigger stages
+        foreach( GameObject target in targets){
+            target.SetActive(false);
+        }
     }
 
     /**
