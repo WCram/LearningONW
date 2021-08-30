@@ -9,6 +9,10 @@ TagManager:
   - SoundManager
   - Ball
   - TargetArea
+  - Timer
+  - particleLeft
+  - particleRight
+  - WinnerMenu
   layers:
   - Default
   - TransparentFX

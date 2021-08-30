@@ -32,8 +32,8 @@ public class Scoreboard : MonoBehaviour
     private string[] introText = new string[6] { "Get Ready", "3", "2", "1", "Go!", "" };
 
     private bool gameStarted = false;
-    private bool restartPrompted = false;
-
+    private bool restartPrompted = false; 
+    
     void Awake(){
         Scoreboard[] objs = FindObjectsOfType<Scoreboard>();
 
@@ -46,18 +46,16 @@ public class Scoreboard : MonoBehaviour
 
     void Start()
     {
+        ToggleWinnerMenu(false);
+
         if (!GameManager.isStage3Done)
         {
             CountDown.SetActive(true);
             TimerInfo.SetActive(false);
             GameMenu.SetActive(false);
-            WinnerMenu.SetActive(false);
-
             countdownText = CountText.GetComponent<Text>();
             timerText = TimerText.GetComponent<Text>();
-
             timeRemaining = 300;
-
             index = 0;
             InvokeRepeating("ReadySetGo", 1.0f, 1.5f);
         }
@@ -66,7 +64,6 @@ public class Scoreboard : MonoBehaviour
             CountDown.SetActive(false);
             TimerInfo.SetActive(false);
             GameMenu.SetActive(false);
-            WinnerMenu.SetActive(false);
         }
     }
 
@@ -127,6 +124,16 @@ public class Scoreboard : MonoBehaviour
         CountDown.SetActive(false);
         TimerInfo.SetActive(true);
         GameMenu.SetActive(true);
-        WinnerMenu.SetActive(false);
+        ToggleWinnerMenu(false);
     }
+
+    public void ToggleWinnerMenu(bool setValue){
+        foreach (Renderer r in WinnerMenu.GetComponentsInChildren<Renderer>()){
+            r.enabled = setValue;
+        }
+        foreach (RawImage r in WinnerMenu.GetComponentsInChildren<RawImage>()){
+            r.enabled = setValue;
+        }
+    }
+
 }

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 /**
  * Class to handle the logic for the ending finale sequence.
@@ -9,18 +10,24 @@ public class FinaleSequence : MonoBehaviour
 {
     [Header("Finale Game Objects")]
     public GameObject FinaleParticle;
-    public GameObject WinnerParticle1;
-    public GameObject WinnerParticle2;
-    public GameObject WinnerMenu;
-    public GameObject TimerInfo;
+    private GameObject WinnerParticle1;
+    private GameObject WinnerParticle2;
+    private GameObject WinnerMenu;
+    private GameObject TimerInfo;
     public GameObject NextLevelObjects;
+    private Scoreboard scoreboard;
 
     void Start()
     {
-        FinaleParticle.SetActive(false);
-        WinnerParticle1.SetActive(false);
-        WinnerParticle2.SetActive(false);
-        WinnerMenu.SetActive(false);
+        scoreboard = FindObjectOfType<Scoreboard>();
+        WinnerParticle1 = GameObject.FindWithTag("particleLeft");
+        WinnerParticle2 = GameObject.FindWithTag("particleRight");
+        TimerInfo = GameObject.FindWithTag("Timer");
+        WinnerMenu = GameObject.FindWithTag("WinnerMenu");
+
+        WinnerParticle1.GetComponent<Renderer>().enabled = false;
+        WinnerParticle2.GetComponent<Renderer>().enabled = false;
+        FinaleParticle.GetComponent<Renderer>().enabled = false;
         NextLevelObjects.SetActive(false);
     }
 
@@ -31,12 +38,11 @@ public class FinaleSequence : MonoBehaviour
     public void PlayFinale()
     {
         TimerInfo.SetActive(false);
-
-        FinaleParticle.SetActive(true);
-        WinnerParticle1.SetActive(true);
-        WinnerParticle2.SetActive(true);
-        WinnerMenu.SetActive(true);
-        NextLevelObjects.SetActive(true);
+        NextLevelObjects.SetActive(true); 
+        scoreboard.ToggleWinnerMenu(true);
+        WinnerParticle1.GetComponent<Renderer>().enabled = true;
+        WinnerParticle2.GetComponent<Renderer>().enabled = true;
+        FinaleParticle.GetComponent<Renderer>().enabled = true;
 
         StartCoroutine(HideParticles());
         GameObject[] targets =  GameObject.FindGameObjectsWithTag("TargetArea");
