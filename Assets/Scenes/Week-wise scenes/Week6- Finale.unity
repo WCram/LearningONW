@@ -2817,6 +2817,16 @@ PrefabInstance:
       propertyPath: soundManager
       value: 
       objectReference: {fileID: 515910467}
+    - target: {fileID: 3650735499161891020, guid: 96a1395fa9bff7643906a28568b9bfb5,
+        type: 3}
+      propertyPath: rig
+      value: 
+      objectReference: {fileID: 62556819}
+    - target: {fileID: 3650735499161891020, guid: 96a1395fa9bff7643906a28568b9bfb5,
+        type: 3}
+      propertyPath: soundManager
+      value: 
+      objectReference: {fileID: 515910467}
     - target: {fileID: 4641980194861718920, guid: 96a1395fa9bff7643906a28568b9bfb5,
         type: 3}
       propertyPath: m_RootOrder
@@ -2847,11 +2857,51 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 7639757553444237674, guid: 96a1395fa9bff7643906a28568b9bfb5,
+        type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 1029179486}
+    - target: {fileID: 7639757553444237675, guid: 96a1395fa9bff7643906a28568b9bfb5,
+        type: 3}
+      propertyPath: m_InteractionManager
+      value: 
+      objectReference: {fileID: 929547766}
+    - target: {fileID: 7639757553502012513, guid: 96a1395fa9bff7643906a28568b9bfb5,
+        type: 3}
+      propertyPath: rig
+      value: 
+      objectReference: {fileID: 62556819}
+    - target: {fileID: 7639757553502012513, guid: 96a1395fa9bff7643906a28568b9bfb5,
+        type: 3}
+      propertyPath: soundManager
+      value: 
+      objectReference: {fileID: 515910467}
     - target: {fileID: 7639757553571055300, guid: 96a1395fa9bff7643906a28568b9bfb5,
         type: 3}
       propertyPath: m_RootOrder
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 7639757553669759607, guid: 96a1395fa9bff7643906a28568b9bfb5,
+        type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 1029179486}
+    - target: {fileID: 7639757553669759608, guid: 96a1395fa9bff7643906a28568b9bfb5,
+        type: 3}
+      propertyPath: m_InteractionManager
+      value: 
+      objectReference: {fileID: 929547766}
+    - target: {fileID: 7639757553850715449, guid: 96a1395fa9bff7643906a28568b9bfb5,
+        type: 3}
+      propertyPath: rig
+      value: 
+      objectReference: {fileID: 62556819}
+    - target: {fileID: 7639757553850715449, guid: 96a1395fa9bff7643906a28568b9bfb5,
+        type: 3}
+      propertyPath: soundManager
+      value: 
+      objectReference: {fileID: 515910467}
     - target: {fileID: 7639757554318033961, guid: 96a1395fa9bff7643906a28568b9bfb5,
         type: 3}
       propertyPath: gameManager
@@ -2862,12 +2912,62 @@ PrefabInstance:
       propertyPath: soundManager
       value: 
       objectReference: {fileID: 515910467}
+    - target: {fileID: 7639757554574515203, guid: 96a1395fa9bff7643906a28568b9bfb5,
+        type: 3}
+      propertyPath: rig
+      value: 
+      objectReference: {fileID: 62556819}
+    - target: {fileID: 7639757554574515203, guid: 96a1395fa9bff7643906a28568b9bfb5,
+        type: 3}
+      propertyPath: soundManager
+      value: 
+      objectReference: {fileID: 515910467}
     - target: {fileID: 7639757554594414251, guid: 96a1395fa9bff7643906a28568b9bfb5,
         type: 3}
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 1029179486}
     - target: {fileID: 7639757554594414251, guid: 96a1395fa9bff7643906a28568b9bfb5,
+        type: 3}
+      propertyPath: soundManager
+      value: 
+      objectReference: {fileID: 515910467}
+    - target: {fileID: 7639757554984576287, guid: 96a1395fa9bff7643906a28568b9bfb5,
+        type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 1029179486}
+    - target: {fileID: 7639757554984576288, guid: 96a1395fa9bff7643906a28568b9bfb5,
+        type: 3}
+      propertyPath: m_InteractionManager
+      value: 
+      objectReference: {fileID: 929547766}
+    - target: {fileID: 7639757555314879323, guid: 96a1395fa9bff7643906a28568b9bfb5,
+        type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 1029179486}
+    - target: {fileID: 7639757555314879324, guid: 96a1395fa9bff7643906a28568b9bfb5,
+        type: 3}
+      propertyPath: m_InteractionManager
+      value: 
+      objectReference: {fileID: 929547766}
+    - target: {fileID: 7639757555341208615, guid: 96a1395fa9bff7643906a28568b9bfb5,
+        type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 1029179486}
+    - target: {fileID: 7639757555341208616, guid: 96a1395fa9bff7643906a28568b9bfb5,
+        type: 3}
+      propertyPath: m_InteractionManager
+      value: 
+      objectReference: {fileID: 929547766}
+    - target: {fileID: 7639757555366308613, guid: 96a1395fa9bff7643906a28568b9bfb5,
+        type: 3}
+      propertyPath: rig
+      value: 
+      objectReference: {fileID: 62556819}
+    - target: {fileID: 7639757555366308613, guid: 96a1395fa9bff7643906a28568b9bfb5,
         type: 3}
       propertyPath: soundManager
       value: 

@@ -124,6 +124,8 @@ public class GameManager : GameManagerFactory
             Stage1.SetActive(true);
             Stage2.SetActive(true);
             Stage3.SetActive(true);
+            Stage4.SetActive(true);
+            Finale.SetActive(true);
             return;
         }
 
