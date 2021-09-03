@@ -9734,7 +9734,6 @@ GameObject:
   - component: {fileID: 935423182519622917}
   - component: {fileID: 3820298396109069550}
   - component: {fileID: 8283007035034185901}
-  - component: {fileID: 8283007035034185890}
   m_Layer: 6
   m_Name: OrangeTreeStump
   m_TagString: Untagged
@@ -9855,7 +9854,7 @@ MonoBehaviour:
   m_SelectEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8283007035034185890}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: StumpInteractable, Assembly-CSharp
         m_MethodName: Teleported
         m_Mode: 1
@@ -9907,21 +9906,6 @@ MonoBehaviour:
   m_MatchOrientation: 0
   m_TeleportTrigger: 0
   m_TeleportAnchorTransform: {fileID: 935423182517198821}
---- !u!114 &8283007035034185890
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 935423182517420997}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0e450c05de7d4c7dbb825c1a9310d11, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameManager: {fileID: 0}
-  Stage1: {fileID: 3882753924294081164}
-  SignText: {fileID: 3882753924113039275}
 --- !u!1 &935423182753676566
 GameObject:
   m_ObjectHideFlags: 0
@@ -9935,7 +9919,6 @@ GameObject:
   - component: {fileID: 935423182751409110}
   - component: {fileID: 3820298396346622525}
   - component: {fileID: 8283007034260436981}
-  - component: {fileID: 8283007034260436938}
   m_Layer: 6
   m_Name: PurpleTreeStump
   m_TagString: Untagged
@@ -10056,7 +10039,7 @@ MonoBehaviour:
   m_SelectEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8283007034260436938}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: StumpInteractable, Assembly-CSharp
         m_MethodName: Teleported
         m_Mode: 1
@@ -10108,21 +10091,6 @@ MonoBehaviour:
   m_MatchOrientation: 0
   m_TeleportTrigger: 0
   m_TeleportAnchorTransform: {fileID: 935423182753833270}
---- !u!114 &8283007034260436938
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 935423182753676566}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0e450c05de7d4c7dbb825c1a9310d11, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameManager: {fileID: 0}
-  Stage1: {fileID: 3882753924294081164}
-  SignText: {fileID: 3882753924113039275}
 --- !u!1 &935423183098164330
 GameObject:
   m_ObjectHideFlags: 0
@@ -10333,7 +10301,6 @@ GameObject:
   - component: {fileID: 935423183297321320}
   - component: {fileID: 935423183296355240}
   - component: {fileID: 3820298397981039171}
-  - component: {fileID: 8283007034727031743}
   - component: {fileID: 8283007034727031742}
   m_Layer: 6
   m_Name: RedTreeStump
@@ -10422,21 +10389,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 71e7cb600453b0a4791c471c86dcb60a, type: 3}
---- !u!114 &8283007034727031743
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 935423183298348392}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0e450c05de7d4c7dbb825c1a9310d11, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameManager: {fileID: 0}
-  Stage1: {fileID: 3882753924294081164}
-  SignText: {fileID: 3882753924113039275}
 --- !u!114 &8283007034727031742
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10470,7 +10422,7 @@ MonoBehaviour:
   m_SelectEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8283007034727031743}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: StumpInteractable, Assembly-CSharp
         m_MethodName: Teleported
         m_Mode: 1
@@ -10534,7 +10486,6 @@ GameObject:
   - component: {fileID: 935423183437821614}
   - component: {fileID: 935423183436690542}
   - component: {fileID: 3820298397311874437}
-  - component: {fileID: 8283007034467006862}
   - component: {fileID: 8283007034467006857}
   m_Layer: 6
   m_Name: PinkTreeStump
@@ -10623,21 +10574,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 71e7cb600453b0a4791c471c86dcb60a, type: 3}
---- !u!114 &8283007034467006862
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 935423183434689198}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0e450c05de7d4c7dbb825c1a9310d11, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameManager: {fileID: 0}
-  Stage1: {fileID: 3882753924294081164}
-  SignText: {fileID: 3882753924113039275}
 --- !u!114 &8283007034467006857
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10671,7 +10607,7 @@ MonoBehaviour:
   m_SelectEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8283007034467006862}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: StumpInteractable, Assembly-CSharp
         m_MethodName: Teleported
         m_Mode: 1
@@ -10835,7 +10771,6 @@ GameObject:
   - component: {fileID: 935423183751928979}
   - component: {fileID: 3820298397628161400}
   - component: {fileID: 8283007034440941309}
-  - component: {fileID: 8283007034440941298}
   m_Layer: 6
   m_Name: TanTreeStump
   m_TagString: Untagged
@@ -10956,7 +10891,7 @@ MonoBehaviour:
   m_SelectEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8283007034440941298}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: StumpInteractable, Assembly-CSharp
         m_MethodName: Teleported
         m_Mode: 1
@@ -11008,21 +10943,6 @@ MonoBehaviour:
   m_MatchOrientation: 0
   m_TeleportTrigger: 0
   m_TeleportAnchorTransform: {fileID: 935423183750159987}
---- !u!114 &8283007034440941298
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 935423183749661267}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0e450c05de7d4c7dbb825c1a9310d11, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameManager: {fileID: 0}
-  Stage1: {fileID: 3882753924294081164}
-  SignText: {fileID: 3882753924113039275}
 --- !u!1 &935423183775924748
 GameObject:
   m_ObjectHideFlags: 0
