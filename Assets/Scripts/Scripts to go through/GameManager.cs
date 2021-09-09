@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.XR;
 using UnityEngine.XR.Interaction.Toolkit;
 using UnityEngine.SceneManagement;
 
@@ -24,12 +23,13 @@ public class GameManager : GameManagerFactory
 
     public static bool isStage3Done;
     private bool debug = true;
+    private List<GameObject> Stages;
 
     // Start is called before the first frame update
     void Start()
     {
         //If stage 3 is complete, set all stages to active and reset rig position else set them all to inactive
-        List<GameObject> Stages = new List<GameObject>(GameObject.FindGameObjectsWithTag("Stage"));
+        Stages = new List<GameObject>(GameObject.FindGameObjectsWithTag("Stage"));
         if (!isStage3Done)
         {
             StartCoroutine(DelayDialogue(1, 0));
@@ -42,76 +42,6 @@ public class GameManager : GameManagerFactory
         }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        //locate the right controller
-        var rightHandDevices = new List<InputDevice>();
-        InputDevices.GetDevicesAtXRNode(XRNode.RightHand, rightHandDevices);
-
-        //locate the left controller
-        var leftHandDevices = new List<InputDevice>();
-        InputDevices.GetDevicesAtXRNode(XRNode.LeftHand, leftHandDevices);
-
-        //make sure that there is only one left and right controller respectively
-        if (rightHandDevices.Count == 1)
-        {
-            InputDevice device = rightHandDevices[0];
-            bool primaryButtonValue;
-            if (device.TryGetFeatureValue(CommonUsages.primaryButton, out primaryButtonValue)
-                && primaryButtonValue)
-            {
-                Debug.Log("A is pressed, Quitting game");
-                QuitGame();
-            }
-        }
-        else if (rightHandDevices.Count > 1 || leftHandDevices.Count > 1)
-        {
-            Debug.Log("Found more than one left or right hand!");
-        }
-
-
-        if (leftHandDevices.Count == 1)
-        {
-            InputDevice device = leftHandDevices[0];
-            bool primaryButtonValue;
-            if (device.TryGetFeatureValue(CommonUsages.primaryButton, out primaryButtonValue)
-                && primaryButtonValue)
-            {
-                Debug.Log("X is pressed, Restarting game");
-                RestartGame();
-            }
-        }
-        //debug
-        if(Input.GetKeyDown("1")){
-            SceneManager.LoadScene("HandSimonSays", LoadSceneMode.Single);
-        }
-    }
-
-    /**
-     * Function to restart the main game scene.
-     */
-    public void RestartGame()
-    {
-        Debug.Log("Restart Oculus Ninja Warrior");
-        RestartHaptic();
-        Scoreboard scoreboard = FindObjectOfType<Scoreboard>();
-        Destroy(scoreboard);
-        soundManager.PlayDing();
-        //LoadSceneMode.Single: Closes all current loaded Scenes and loads a Scene.
-        SceneManager.LoadScene("GameScene", LoadSceneMode.Single);
-    }
-
-    /**
-     * Function to quit the game.
-     */
-    public void QuitGame()
-    {
-        Debug.Log("Quit Oculus Ninja Warrior");
-        QuitHaptic();
-        Application.Quit();
-    }
-
     /**
      * Function to show the objects for the next stage. Called
      * when previous stage has been completed.
@@ -121,10 +51,7 @@ public class GameManager : GameManagerFactory
     {
         if (debug)
         {
-            Stage1.SetActive(true);
-            Stage2.SetActive(true);
-            Stage3.SetActive(true);
-            Stage4.SetActive(true);
+            showObjects(Stages);
             Finale.SetActive(true);
             return;
         }
@@ -192,49 +119,20 @@ public class GameManager : GameManagerFactory
         yield return new WaitForSeconds(secs);
         soundManager.PlayDialogue(dialogue);
     }
-
-    public void EnterTargetHaptic()
-    {
-        LeftHand.SendHapticImpulse(0.7f, 0.5f);
-        RightHand.SendHapticImpulse(0.7f, 0.5f);
-    }
-
-    public void GrabObjectHaptic()
-    {
-        LeftHand.SendHapticImpulse(0.2f, 0.1f);
-        RightHand.SendHapticImpulse(0.2f, 0.1f);
-    }
-
+    
     public void CorrectActionHaptic()
     {
-        LeftHand.SendHapticImpulse(0.1f, 0.1f);
-        LeftHand.SendHapticImpulse(0.1f, 0.1f);
+        LeftHand.SendHapticImpulse(0.2f, 0.1f);
+        LeftHand.SendHapticImpulse(0.2f, 0.1f);
 
-        RightHand.SendHapticImpulse(0.1f, 0.1f);
-        RightHand.SendHapticImpulse(0.1f, 0.1f);
+        RightHand.SendHapticImpulse(0.2f, 0.1f);
+        RightHand.SendHapticImpulse(0.2f, 0.1f);
     }
 
     public void IncorrectActionHaptic()
     {
         LeftHand.SendHapticImpulse(0.1f, 0.1f);
         RightHand.SendHapticImpulse(0.1f, 0.1f);
-    }
-
-    public void QuitHaptic()
-    {
-        RightHand.SendHapticImpulse(0.25f, 0.25f);
-    }
-
-    public void RestartHaptic()
-    {
-        LeftHand.SendHapticImpulse(0.5f, 0.5f);
-        LeftHand.SendHapticImpulse(0.5f, 0.5f);
-    }
-
-    public void PlayHaptic()
-    {
-        LeftHand.SendHapticImpulse(0.5f, 1f);
-        RightHand.SendHapticImpulse(0.5f, 1f);
     }
 
     public void hideObjects(List<GameObject> objects)

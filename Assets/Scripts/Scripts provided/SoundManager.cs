@@ -31,19 +31,15 @@ public class SoundManager : MonoBehaviour
 
     void Awake()
     {
-        if (instance == null)
-        {
-            instance = this;
-        }
-        else
+        if (instance != null)
         {
             SoundManager[] soundManagers = FindObjectsOfType<SoundManager>();
             foreach (SoundManager manager in soundManagers)
             {
                 Destroy(manager);
             }
-            instance = this;
         }
+        instance = this;
     }
 
     /** 
