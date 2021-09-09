@@ -35,16 +35,7 @@ public class TargetArea : MonoBehaviour
                 soundManager.PlayDialogue(5);
                 break;
             case 4:
-                if (other.name != "PlatformRock")
-                {
-                    soundManager.PlayDialogue(6);
-                }
-                break;
-            case 5: //Play game
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-                break;
-            case 6: //Instructions
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+                soundManager.PlayDialogue(6);
                 break;
             default:
                 break;

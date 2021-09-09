@@ -32,7 +32,6 @@ public class BoatScoreArea : MonoBehaviour
      */
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("ball has entered boat trigger");
         gameManager.GetComponent<GameManager>().CorrectActionHaptic();
         if(other.gameObject.tag == "Ball"){
             Stage2.GetComponent<ThrowingSequence>().setHiddenBoat(boatNum);
